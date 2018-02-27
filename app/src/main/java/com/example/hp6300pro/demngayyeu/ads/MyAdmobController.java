@@ -115,23 +115,15 @@ public class MyAdmobController {
 
             }
         });
-
-
-        //facebook ads
         mFbInterstitialAd = new com.facebook.ads.InterstitialAd(ac, FB_MANHINH_ID);
-
         requestNewInterstitial();
-
-
         h.post(rQuangcao);
     }
 
 
-    public static void requestNewInterstitial() { // DuyLH - QC
-
+    public static void requestNewInterstitial() {
         if (isUseAdmob) {
             AdRequest adRequest = MyAdmobController.getAdRequest();
-
             if (mInterstitialAd != null && !mInterstitialAd.isLoaded())
                 mInterstitialAd.loadAd(adRequest);
         } else {
@@ -142,27 +134,21 @@ public class MyAdmobController {
 
             }
         }
-
-
     }
 
 
     public static Handler h = new Handler();
-
     public static Runnable rQuangcao = new Runnable() {
 
         @Override
         public void run() {
-
             flagQC = 1;
-
             h.postDelayed(rQuangcao, TIME_GIANCACH_QC);
         }
     };
 
     protected static AdRequest getAdRequest() {
         AdRequest adRequest = new AdRequest.Builder().build();
-
         return adRequest;
     }
 

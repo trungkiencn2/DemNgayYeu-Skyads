@@ -730,11 +730,11 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f07000e;
         public static final int abc_shareactionprovider_share_with_application = 0x7f07000f;
         public static final int abc_toolbar_collapse_description = 0x7f070010;
-        public static final int rta_dialog_cancel = 0x7f070023;
-        public static final int rta_dialog_message = 0x7f070024;
-        public static final int rta_dialog_no = 0x7f070025;
-        public static final int rta_dialog_ok = 0x7f070026;
-        public static final int rta_dialog_title = 0x7f070027;
+        public static final int rta_dialog_cancel = 0x7f070058;
+        public static final int rta_dialog_message = 0x7f070059;
+        public static final int rta_dialog_no = 0x7f07005a;
+        public static final int rta_dialog_ok = 0x7f07005b;
+        public static final int rta_dialog_title = 0x7f07005c;
         public static final int search_menu_title = 0x7f070021;
         public static final int status_bar_notification_info_overflow = 0x7f070022;
     }

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ፍቅር ቆጣሪ</string>
+    <string name="pick_start_love_day">የፍቅር ቀንን ይምረጡ</string>
+    <string name="love_forever">ዘላለማዊ ፍቅር</string>
+    <string name="take_picture">ፎቶ አንሳ</string>
+    <string name="change_title">ርዕስ ቀይር</string>
+    <string name="pick_picture_from_memory">ፎቶን ከማስታወስ ይምረጡ</string>
+    <string name="days">ቀን</string>
+    <string name="malename">የወንድ ስም</string>
+    <string name="femalename">ሴት ስም</string>
+    <string name="clock_love">ሰዓት የፍቅር</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="ok">እሺ</string>
+    <string name="been_love_together">ፍቅር አንድ ላይ ሆናችሁ</string>
+    <string name="set_malename">የወንድ ስም አዘጋጅ</string>
+    <string name="set_femalename">የሴት ስም አዘጋጅ</string>
+    <string name="type_malename">የወንድ ስም ትየባ ...</string>
+    <string name="type_femalename">የሴት ስም በማስገባት ላይ ...</string>
+    <string name="year">አመት</string>
+    <string name="month">ወር</string>
+    <string name="day">ቀን</string>
+    <string name="hour">ሰአት</string>
+    <string name="minute">ደቂቃ</string>
+    <string name="second">ሁለተኛ</string>
+    <string name="start_this_day">ይህን ቀን ጀምር</string>
+    <string name="start_love">ፍቅርን ጀምር</string>
+    <string name="enter_love">ፍቅርን ግባ</string>
+    <string name="celebrate_love">ፍቅርን ያክብሩ</string>
+    <string name="set_background">ዳራ አዘጋጅ</string>
+    <string name="choose_color">ቀለም ይምረጡ</string>
+    <string name="delete">ሰርዝ</string>
+    <string name="are_you_sure">እርግጠኛ ነዎት ይህንን ማህደረ ትውስታ መሰረዝ ይፈልጋሉ?</string>
+    <string name="miss_info">የጎደለውን መረጃ አስገባ. እባክዎ ተጨማሪ ያስገቡ :D</string>
+    <string name="content_love">እርስ በእርስ መነቃቃትን ስናደርግ ዕድሜን በአንድ ላይ ለመቆየት የሁለቱን ሰዎች ፍቅር ለማሳየት የሚደረግ ጥረት ነው. እንዴት ከባድ, ፈታኝ, እና እጃችንን በእጃችን በመያዝ ወደፊት እንራመዳለን. ፍቅር የተሸነፈበት ጊዜ ይሸፍነዋል? ስለ ውሎ አድሮው አስደሳች ትዝታዎችን ይጋሩ</string>
+    <string name="change_background">ዳራውን ለውጥ</string>
+    <string name="change_love_date">ቀን ለውጥ</string>
+    <string name="change_above_title">ምርጥ ርዕስ ይቀይሩ</string>
+    <string name="change_bottom_title">የታች ርእስ ለውጥ</string>
+    <string name="set_quick_keys">ፈጣን ቁልፎችን ያዘጋጁ</string>
+    <string name="set_font">ፎንት ያዘጋጁ</string>
+    <string name="change_color_wave">የቀለም ሞገድ ያዘጋጁ</string>
+    <string name="change_bg_color_wave">የዳራ ሞገድ ያዘጋጁ</string>
+    <string name="rate_us">ደረጃ ይስጡን</string>
+    <string name="share">አጋራ</string>
+    <string name="set_lock_screen">የቁልፍ ማያ ገጽ አዘጋጅ</string>
+    <string name="dialog_capquyen_title">ፍቃድ ፍቀድ</string>
+    <string name="dialog_capquyen_mess">ለመተግበሪያው የፍልጋ ልብስ ፍቃድን ለመክፈት ተንሸራታች ምግብር ተግባር ይፍቀዱ.</string>
+    <string name="mess_validate_quangay">ቀኑን ዛሬ ማዘጋጀት አይቻልም</string>
+    <string name="select_date_title">ቀን ይምረጡ</string>
+    <string name="my_own_cancel">ሰርዝ</string>
+    <string name="my_own_message">ይህንን ትግበራ ደረጃ ለመስጠት ትፈልጋለህ?</string>
+    <string name="my_own_rate">እሺ</string>
+    <string name="my_own_thanks">በድጋሚ አታሳይ</string>
+    <string name="my_own_title">ደረጃ ይስጡ</string>
+
+</resources>

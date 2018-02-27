@@ -33,7 +33,6 @@
     <string name="are_you_sure">Are you sure want to delete this memory?</string>
     <string name="miss_info">You enter the missing information. Please enter more :D</string>
     <string name="content_love">Know each other because of the word charm but to stick together a lifetime is the attempt of the two people in love. Pass how difficult, challenging, we still hold hands and walk forward. Love has overcome may cover ups and downs? Share the wonderful memories of the day love you</string>
-
     <string name="change_background">Change background</string>
     <string name="change_love_date">Change date</string>
     <string name="change_above_title">Change top title</string>
@@ -45,15 +44,10 @@
     <string name="rate_us">Rate us</string>
     <string name="share">Share</string>
     <string name="set_lock_screen">Set lock screen</string>
-
-
     <string name="dialog_capquyen_title">Allow Permission</string>
     <string name="dialog_capquyen_mess">Please allow Draw overlay permission for app to run Floating widget function.</string>
-
     <string name="mess_validate_quangay">Can not set the date after today</string>
-
     <string name="select_date_title">Select date</string>
-
     <string name="my_own_cancel">Cancel</string>
     <string name="my_own_message">Do you want to rate this application?</string>
     <string name="my_own_rate">Ok</string>

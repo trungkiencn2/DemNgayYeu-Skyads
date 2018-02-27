@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compteur damour</string>
+    <string name="pick_start_love_day">Choisissez le début de la journée damour</string>
+    <string name="love_forever">Amour pour toujours</string>
+    <string name="take_picture">Prendre une photo</string>
+    <string name="change_title">Changer le titre</string>
+    <string name="pick_picture_from_memory">choisissez limage de la mémoire</string>
+    <string name="days">Journée</string>
+    <string name="malename">Nom masculin</string>
+    <string name="femalename">Nom féminin</string>
+    <string name="clock_love">L`amour de l`horloge</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">D`ACCORD</string>
+    <string name="been_love_together">Été aimé ensemble</string>
+    <string name="set_malename">Définir le nom masculin</string>
+    <string name="set_femalename">Définir le nom féminin</string>
+    <string name="type_malename">Taper le nom masculin...</string>
+    <string name="type_femalename">Taper le nom féminin...</string>
+    <string name="year">An</string>
+    <string name="month">Mois</string>
+    <string name="day">Journée</string>
+    <string name="hour">Heure</string>
+    <string name="minute">Minute</string>
+    <string name="second">Seconde</string>
+    <string name="start_this_day">Commencez ce jour</string>
+    <string name="start_love">Commence l`amour</string>
+    <string name="enter_love">Entre amour</string>
+    <string name="celebrate_love">Célébrez l`amour</string>
+    <string name="set_background">Définir l`arrière-plan</string>
+    <string name="choose_color">Choisir la couleur</string>
+    <string name="delete">Effacer</string>
+    <string name="are_you_sure">Êtes-vous sûr de vouloir supprimer cette mémoire?</string>
+    <string name="miss_info">Vous entrez les informations manquantes. S`il vous plaît entrer plus :D</string>
+    <string name="content_love">Se connaître à cause du mot charme mais rester ensemble toute une vie est la tentative des deux amoureux. Passez à quel point difficile, difficile, nous tenons toujours les mains et avancer. L`amour a vaincu peut couvrir les hauts et les bas? Partagez les merveilleux souvenirs de la journée que vous aimez</string>
+    <string name="change_background">Changement de fond</string>
+    <string name="change_love_date">Date de modification</string>
+    <string name="change_above_title">Changer le titre supérieur</string>
+    <string name="change_bottom_title">Changer le titre du bas</string>
+    <string name="set_quick_keys">Définir les touches rapides</string>
+    <string name="set_font">Définir la police</string>
+    <string name="change_color_wave">Définir l`onde de couleur</string>
+    <string name="change_bg_color_wave">Définir l`onde de fond</string>
+    <string name="rate_us">Évaluez nous</string>
+    <string name="share">Partager</string>
+    <string name="set_lock_screen">Définir l`écran de verrouillage</string>
+    <string name="dialog_capquyen_title">Autoriser l`autorisation</string>
+    <string name="dialog_capquyen_mess">Veuillez autoriser l`autorisation de superposition de Draw pour que l`application exécute la fonction de widget Flottant.</string>
+    <string name="mess_validate_quangay">Impossible de définir la date après aujourd`hui</string>
+    <string name="select_date_title">Sélectionner une date</string>
+    <string name="my_own_cancel">Annuler</string>
+    <string name="my_own_message">Voulez-vous évaluer cette application?</string>
+    <string name="my_own_rate">D`accord</string>
+    <string name="my_own_thanks">Ne plus montrer</string>
+    <string name="my_own_title">Taux</string>
+
+</resources>

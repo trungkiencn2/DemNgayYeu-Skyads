@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ラブカウンター</string>
+    <string name="pick_start_love_day">ピックスタートラブデイ</string>
+    <string name="love_forever">永遠の愛</string>
+    <string name="take_picture">写真を撮る</string>
+    <string name="change_title">タイトルを変更します</string>
+    <string name="pick_picture_from_memory">メモリから画像を取り出す</string>
+    <string name="days">日</string>
+    <string name="malename">男性の名前</string>
+    <string name="femalename">女性の名前</string>
+    <string name="clock_love">時計の愛</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ok">OK</string>
+    <string name="been_love_together">一緒に愛している</string>
+    <string name="set_malename">男性の名前を設定します</string>
+    <string name="set_femalename">女性の名前を設定します</string>
+    <string name="type_malename">男性名を入力してください...</string>
+    <string name="type_femalename">女性の名前を入力します...</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">時間</string>
+    <string name="minute">分</string>
+    <string name="second">二番目</string>
+    <string name="start_this_day">今日始める</string>
+    <string name="start_love">愛を始める</string>
+    <string name="enter_love">愛を入力してください</string>
+    <string name="celebrate_love">愛を祝う</string>
+    <string name="set_background">背景を設定します</string>
+    <string name="choose_color">色を選択してください</string>
+    <string name="delete">削除します</string>
+    <string name="are_you_sure">このメモリを削除してもよろしいですか?</string>
+    <string name="miss_info">不足している情報を入力します。もっと入力してください :D</string>
+    <string name="content_love">魅力の言葉のためにお互いを知っているが、一生に一度固執することは、恋の2人の試みである。どのように困難、困難、我々はまだ手を保持し、前方に歩くパスを渡す。愛は克服したことがありますか？あなたの日の素敵な思い出を共有してください</string>
+    <string name="change_background">背景を変更します</string>
+    <string name="change_love_date">変更日</string>
+    <string name="change_above_title">トップタイトルを変更する</string>
+    <string name="change_bottom_title">下のタイトルを変更します</string>
+    <string name="set_quick_keys">クイックキーを設定します</string>
+    <string name="set_font">フォントを設定します</string>
+    <string name="change_color_wave">カラーウェーブを設定します</string>
+    <string name="change_bg_color_wave">背景波を設定します</string>
+    <string name="rate_us">私たちを評価してください</string>
+    <string name="share">シェア</string>
+    <string name="set_lock_screen">ロック画面を設定します</string>
+    <string name="dialog_capquyen_title">許可を許可する</string>
+    <string name="dialog_capquyen_mess">アプリがフローティングウィジェット機能を実行するための描画オーバーレイ許可を許可してください.</string>
+    <string name="mess_validate_quangay">今日以降の日付は設定できません</string>
+    <string name="select_date_title">日付を選択してください</string>
+    <string name="my_own_cancel">キャンセル</string>
+    <string name="my_own_message">このアプリケーションを評価しますか?</string>
+    <string name="my_own_rate">OK</string>
+    <string name="my_own_thanks">もう一度表示しないでください</string>
+    <string name="my_own_title">レート</string>
+
+</resources>

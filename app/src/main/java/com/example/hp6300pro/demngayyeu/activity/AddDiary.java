@@ -125,25 +125,16 @@ public class AddDiary extends MyBaseActivityWithAds implements View.OnClickListe
     }
 
     private void AddOrItemDiary() {
-
-        //DuyLH - change code
         if (ListDiary.SET_CLICK.equals(ListDiary.CLICK_ITEM_DIARY)) {
             whenCLickItemDiary();
         }
-
     }
-
-//    private void whenClickAddDiary() {
-//
-//    }
 
     private void whenCLickItemDiary() {
         mDiary = (Diary) getIntent().getExtras().getSerializable(MainActivity.PUT_DIARY);
         mEdtEnterTitleLove.setText(mDiary.getTitleLove());
         mEdtEnterContentLove.setText(mDiary.getContentLove());
         mTvDate.setText(mDiary.getDate());
-        //mImgGallery.setImageResource(R.drawable.ic_pen);
-        setUnClick();
         try {
             Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), Uri.parse(mDiary.getUriBgCollapsing()));
             mImgBgCollapsing.setImageBitmap(MainActivity.scaleBitmap(bitmap, 600, 600));
@@ -160,22 +151,6 @@ public class AddDiary extends MyBaseActivityWithAds implements View.OnClickListe
     }
 
     private boolean mEditTitle = true, mEditContent = true;
-
-    private void setUnClick() {
-//        mEditTitle = false;
-//        mEditContent = false;
-//        mImgBgCollapsing.setClickable(false);
-//        mTvDate.setClickable(false);
-//        mFabSave.setVisibility(View.GONE);
-    }
-
-    private void setIsClick() {
-//        mEditTitle = true;
-//        mEditContent = true;
-//        mImgBgCollapsing.setClickable(true);
-//        mTvDate.setClickable(true);
-//        mFabSave.setVisibility(View.VISIBLE);
-    }
 
     private void addEvent() {
         mTvDate.setText(Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + "-" + (Calendar.getInstance().get(Calendar.MONTH) + 1) + "-" + Calendar.getInstance().get(Calendar.YEAR));
@@ -209,7 +184,6 @@ public class AddDiary extends MyBaseActivityWithAds implements View.OnClickListe
     }
 
     private void GalleryOpen() {
-        //DuyLH - crop image
         CropImage.activity()
                 .setGuidelines(CropImageView.Guidelines.ON)
                 .setActivityTitle("Crop Image")
@@ -257,7 +231,7 @@ public class AddDiary extends MyBaseActivityWithAds implements View.OnClickListe
         mCalendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
-                thisDay.set(year, month, dayOfMonth, Calendar.getInstance().get(Calendar.HOUR_OF_DAY), Calendar.getInstance().get(Calendar.MINUTE), Calendar.getInstance().get(Calendar.SECOND));
+                thisDay.set(year, month + 1, dayOfMonth, Calendar.getInstance().get(Calendar.HOUR_OF_DAY), Calendar.getInstance().get(Calendar.MINUTE), Calendar.getInstance().get(Calendar.SECOND));
                 mTvThu.setText(getDayOfWeek(thisDay.get(Calendar.DAY_OF_WEEK)) + "");
                 mTvDay.setText(thisDay.get(Calendar.DAY_OF_MONTH) + "");
                 mTvMonth.setText(getMonthOfYear(thisDay.get(Calendar.MONTH)));
@@ -286,7 +260,6 @@ public class AddDiary extends MyBaseActivityWithAds implements View.OnClickListe
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK) {
 
-            //DuyLH - crop image result
             if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
                 CropImage.ActivityResult result = CropImage.getActivityResult(data);
                 if (resultCode == RESULT_OK) {

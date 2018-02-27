@@ -31,8 +31,8 @@ public class MyReceiver extends BroadcastReceiver { //abc
             countPowerOff++;
         } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
             Log.e("In on receive", "In Method:  ACTION_SCREEN_ON");
-//            context.startService(new Intent(context, LockService.class));
-
+            context.stopService(new Intent(context, LockService.class));
+            countPowerOff++;
         } else if (intent.getAction().equals(Intent.ACTION_USER_PRESENT)) {
             Log.e("In on receive", "In Method:  ACTION_USER_PRESENT");
             if (countPowerOff > 2) {

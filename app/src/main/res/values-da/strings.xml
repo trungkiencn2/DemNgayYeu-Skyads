@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kærlighedstæller</string>
+    <string name="pick_start_love_day">Vælg start kærlighedsdag</string>
+    <string name="love_forever">Elsk for evigt</string>
+    <string name="take_picture">Tage billede</string>
+    <string name="change_title">Skift titel</string>
+    <string name="pick_picture_from_memory">Vælg billede fra hukommelsen</string>
+    <string name="days">Dag</string>
+    <string name="malename">Mandlige navn</string>
+    <string name="femalename">Kvinde navn</string>
+    <string name="clock_love">Ur kærlighed</string>
+    <string name="cancel">Afbestille</string>
+    <string name="ok">OKAY</string>
+    <string name="been_love_together">Har været kærlighed sammen</string>
+    <string name="set_malename">Indstil mandlige navn</string>
+    <string name="set_femalename">Indstil kvindelig navn</string>
+    <string name="type_malename">Indtastning af mandlige navn...</string>
+    <string name="type_femalename">Indtastning af kvindelig navn...</string>
+    <string name="year">År</string>
+    <string name="month">Måned</string>
+    <string name="day">Dag</string>
+    <string name="hour">Time</string>
+    <string name="minute">Minut</string>
+    <string name="second">Anden</string>
+    <string name="start_this_day">Start denne dag</string>
+    <string name="start_love">Start kærlighed</string>
+    <string name="enter_love">Indtast kærlighed</string>
+    <string name="celebrate_love">Fejr kærlighed</string>
+    <string name="set_background">Indstil baggrund</string>
+    <string name="choose_color">Vælg farve</string>
+    <string name="delete">Slet</string>
+    <string name="are_you_sure">Er du sikker på, at du vil slette denne hukommelse?</string>
+    <string name="miss_info">Du indtaster de manglende oplysninger. Indtast venligst mere :D</string>
+    <string name="content_love">Kend hinanden på grund af ordet charme, men at holde sammen en levetid er forsøget for de to mennesker i kærlighed. Pass så svært, udfordrende, vi holder stadig hænder og går fremad. Kærlighed har overvundet kan dække op og nedture? Del de vidunderlige minder om dagen elsker dig</string>
+    <string name="change_background">Skift baggrund</string>
+    <string name="change_love_date">Skift dato</string>
+    <string name="change_above_title">Skift top titel</string>
+    <string name="change_bottom_title">Skift nederste titel</string>
+    <string name="set_quick_keys">Indstil hurtigtaster</string>
+    <string name="set_font">Indstil skrifttype</string>
+    <string name="change_color_wave">Indstil farvebølge</string>
+    <string name="change_bg_color_wave">Indstil baggrundsbølge</string>
+    <string name="rate_us">Bedøm os</string>
+    <string name="share">Del</string>
+    <string name="set_lock_screen">Indstil låseskærm</string>
+    <string name="dialog_capquyen_title">Tillad tilladelse</string>
+    <string name="dialog_capquyen_mess">Tillad venligst at overdrage tilladelse til, at appen kan køre Floating widget-funktionen.</string>
+    <string name="mess_validate_quangay">Kan ikke indstille datoen efter i dag</string>
+    <string name="select_date_title">Vælg dato</string>
+    <string name="my_own_cancel">Afbestille</string>
+    <string name="my_own_message">Ønsker du at bedømme denne ansøgning?</string>
+    <string name="my_own_rate">Okay</string>
+    <string name="my_own_thanks">Vis ikke igen</string>
+    <string name="my_own_title">Sats</string>
+
+</resources>

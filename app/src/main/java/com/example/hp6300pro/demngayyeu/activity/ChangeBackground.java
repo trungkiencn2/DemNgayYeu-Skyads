@@ -76,11 +76,9 @@ public class ChangeBackground extends MyBaseActivityWithAds implements View.OnCl
         dots[0].setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.active_dot));
 
 
-        //DuyLH - set image index 0
         mCheckPickImage = true;
         MainActivity.PUT_TYPE = MainActivity.PUT_INTEGER;
         mImgSelected = mPageAdapter.getImageSelected(0);
-        //
 
         ViewPager.OnPageChangeListener pageChangeListener = new ViewPager.OnPageChangeListener() {
             @Override

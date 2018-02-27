@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">愛情櫃檯</string>
+    <string name="pick_start_love_day">選擇開始愛的一天</string>
+    <string name="love_forever">永遠的愛</string>
+    <string name="take_picture">拍照片</string>
+    <string name="change_title">更改標題</string>
+    <string name="pick_picture_from_memory">從記憶中挑選圖片</string>
+    <string name="days">天</string>
+    <string name="malename">男性的名字</string>
+    <string name="femalename">女性的名字</string>
+    <string name="clock_love">鍾愛</string>
+    <string name="cancel">取消</string>
+    <string name="ok">好</string>
+    <string name="been_love_together">一直愛著</string>
+    <string name="set_malename">設置男性的名字</string>
+    <string name="set_femalename">設置女性的名字</string>
+    <string name="type_malename">打字男性的名字...</string>
+    <string name="type_femalename">鍵入女性的名字...</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">天</string>
+    <string name="hour">小時</string>
+    <string name="minute">分鐘</string>
+    <string name="second">第二</string>
+    <string name="start_this_day">從今天開始</string>
+    <string name="start_love">開始愛</string>
+    <string name="enter_love">輸入愛</string>
+    <string name="celebrate_love">慶祝愛情</string>
+    <string name="set_background">設置背景</string>
+    <string name="choose_color">選擇顏色</string>
+    <string name="delete">刪除</string>
+    <string name="are_you_sure">您確定要刪除此內存嗎?</string>
+    <string name="miss_info">您輸入缺少的信息。請輸入更多 :D</string>
+    <string name="content_love">因為魅力這個詞而相互認識，但一輩子堅持到底是兩個人戀愛的嘗試。通過多麼困難，挑戰，我們仍然握著手向前走。愛已經克服可能掩蓋起伏？分享一天中美好的回憶愛你</string>
+    <string name="change_background">換背景</string>
+    <string name="change_love_date">改變日期</string>
+    <string name="change_above_title">更改頂級標題</string>
+    <string name="change_bottom_title">更改底部標題</string>
+    <string name="set_quick_keys">設置快捷鍵</string>
+    <string name="set_font">設置字體</string>
+    <string name="change_color_wave">設置顏色波</string>
+    <string name="change_bg_color_wave">設置背景波</string>
+    <string name="rate_us">給我們評分</string>
+    <string name="share">分享</string>
+    <string name="set_lock_screen">設置鎖定屏幕</string>
+    <string name="dialog_capquyen_title">允許權限</string>
+    <string name="dialog_capquyen_mess">請允許應用的繪製疊加權限運行浮動窗口小部件功能.</string>
+    <string name="mess_validate_quangay">今天后無法設置日期</string>
+    <string name="select_date_title">選擇日期</string>
+    <string name="my_own_cancel">取消</string>
+    <string name="my_own_message">你想評價這個應用程序?</string>
+    <string name="my_own_rate">好</string>
+    <string name="my_own_thanks">不要再顯示</string>
+    <string name="my_own_title">率</string>
+
+</resources>

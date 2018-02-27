@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Liebeszähler</string>
+    <string name="pick_start_love_day">Pick-Start-Tag der Liebe</string>
+    <string name="love_forever">Liebe für immer</string>
+    <string name="take_picture">Ein Bild machen</string>
+    <string name="change_title">Ändere den Titel</string>
+    <string name="pick_picture_from_memory">Bild aus dem Speicher auswählen</string>
+    <string name="days">Tag</string>
+    <string name="malename">Männlicher Name</string>
+    <string name="femalename">Name der Frau</string>
+    <string name="clock_love">Uhr Liebe</string>
+    <string name="cancel">Stornieren</string>
+    <string name="ok">OK</string>
+    <string name="been_love_together">Liebe zusammen gewesen</string>
+    <string name="set_malename">Setze männlichen Namen ein</string>
+    <string name="set_femalename">Setze einen weiblichen Namen</string>
+    <string name="type_malename">Männlicher Name eingeben...</string>
+    <string name="type_femalename">Eingabe des weiblichen Namens...</string>
+    <string name="year">Jahr</string>
+    <string name="month">Monat</string>
+    <string name="day">Tag</string>
+    <string name="hour">Stunde</string>
+    <string name="minute">Minute</string>
+    <string name="second">Zweite</string>
+    <string name="start_this_day">Beginne diesen Tag</string>
+    <string name="start_love">Fang die Liebe an</string>
+    <string name="enter_love">Gib Liebe ein</string>
+    <string name="celebrate_love">Feiern Sie die Liebe</string>
+    <string name="set_background">Hintergrund einstellen</string>
+    <string name="choose_color">Wähle eine Farbe</string>
+    <string name="delete">Löschen</string>
+    <string name="are_you_sure">Möchten Sie diesen Speicher wirklich löschen?</string>
+    <string name="miss_info">Sie geben die fehlenden Informationen ein. Bitte geben Sie mehr ein :D</string>
+    <string name="content_love">Kennen einander wegen des Wortes Charme, aber ein Leben lang zusammenzuhalten ist der Versuch der zwei Menschen in der Liebe. Pass wie schwierig, herausfordernd, wir halten immer noch die Hände und gehen vorwärts. Die Liebe hat überwunden, kann Höhen und Tiefen verdecken? Teilen Sie die wundervollen Erinnerungen des Tages, der Sie liebt</string>
+    <string name="change_background">Hintergrund ändern</string>
+    <string name="change_love_date">Datum ändern</string>
+    <string name="change_above_title">Ändern Sie den Titel</string>
+    <string name="change_bottom_title">Ändern Sie den unteren Titel</string>
+    <string name="set_quick_keys">Stellen Sie die Schnellwahltasten ein</string>
+    <string name="set_font">Schriftart einstellen</string>
+    <string name="change_color_wave">Stellen Sie Farbwelle ein</string>
+    <string name="change_bg_color_wave">Legen Sie Hintergrundwelle fest</string>
+    <string name="rate_us">Bewerten Sie uns</string>
+    <string name="share">Aktie</string>
+    <string name="set_lock_screen">Stellen Sie den Sperrbildschirm ein</string>
+    <string name="dialog_capquyen_title">Erlaube Erlaubnis</string>
+    <string name="dialog_capquyen_mess">Bitte erlauben Sie Overlay-Berechtigung zeichnen, damit die App die Floating-Widget-Funktion ausführt.</string>
+    <string name="mess_validate_quangay">Das Datum nach dem heutigen Tag kann nicht festgelegt werden</string>
+    <string name="select_date_title">Datum auswählen</string>
+    <string name="my_own_cancel">Stornieren</string>
+    <string name="my_own_message">Möchten Sie diese Anwendung bewerten?</string>
+    <string name="my_own_rate">Ok</string>
+    <string name="my_own_thanks">Nicht mehr anzeigen</string>
+    <string name="my_own_title">Bewertung</string>
+
+</resources>

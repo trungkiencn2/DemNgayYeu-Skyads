@@ -788,10 +788,14 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                 }
                 editor.apply();
                 startNotifyService();
+
             } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
 
             } else if (requestCode == RESULT_CANCELED) {
                 Log.d("abc", "cancel");
+            }
+            if(prefs.getBoolean(LOCK_SCREEN, false)){
+                updateLockScreen();
             }
             return;
         }
@@ -822,13 +826,17 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
             }
             editor.apply();
             writeToFile(PUT_TYPE, FILE_CONFIG, this);
+            if(prefs.getBoolean(LOCK_SCREEN, false)){
+                updateLockScreen();
+            }
         } else if (resultCode == CHUP_ANH) {
             uri = Uri.parse(data.getStringExtra(CHUP_ANH_STRING));
             CropImage();
+            if(prefs.getBoolean(LOCK_SCREEN, false)){
+                updateLockScreen();
+            }
         }
-        if(prefs.getBoolean(LOCK_SCREEN, false)){
-            updateLockScreen();
-        }
+
     }
 
     private Bitmap bitmapFromAssets(String path) {
@@ -1200,7 +1208,6 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                             displayAlertDialogForChangeTitle();
                             alertShowFunction.cancel();
                         } else if (i == 4) {
-                            //DuyLH - fix code
                             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(MainActivity.this)) {
 
                                 AlertDialogUtils.showAlertDialog(MainActivity.this, getString(R.string.dialog_capquyen_title), getString(R.string.dialog_capquyen_mess), "Ok", "", false, new Idelegate() {
@@ -1229,13 +1236,9 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                                 editor.putLong(TIME_START, prefsN.getLong(TIME_START, 0));
                                 editor.apply();
                                 startService(itForFloating);
-
                                 alertShowFunction.cancel();
 
-                                //finish();
                             }
-                            //end DuyLH
-
 
                         } else if (i == 5) {
                             displayAlertDialogChooseFont();
@@ -1436,7 +1439,6 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
     }
 
     private void displayAlertDialogForChooseImage() {
-        //DuyLH - test
         CropImage.activity()
                 .setGuidelines(CropImageView.Guidelines.ON)
                 .setActivityTitle("Crop Image")
@@ -1447,6 +1449,5 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                 .setAspectRatio(1, 1)
                 .start(MainActivity.this);
 
-        //
     }
 }

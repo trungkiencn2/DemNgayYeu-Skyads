@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Любовен брояч</string>
+    <string name="pick_start_love_day">Изберете ден за любов</string>
+    <string name="love_forever">Любов завинаги</string>
+    <string name="take_picture">Снимам</string>
+    <string name="change_title">Променете заглавието</string>
+    <string name="pick_picture_from_memory">изберете снимка от паметта</string>
+    <string name="days">Ден</string>
+    <string name="malename">Име на мъжа</string>
+    <string name="femalename">Женско име</string>
+    <string name="clock_love">Часовник любов</string>
+    <string name="cancel">Отказ</string>
+    <string name="ok">ДОБРЕ</string>
+    <string name="been_love_together">Бъди любов заедно</string>
+    <string name="set_malename">Задайте име на мъж</string>
+    <string name="set_femalename">Задайте женско име</string>
+    <string name="type_malename">Въвеждане на име на мъж...</string>
+    <string name="type_femalename">Въвеждане на женско име...</string>
+    <string name="year">Година</string>
+    <string name="month">Месец</string>
+    <string name="day">Ден</string>
+    <string name="hour">Час</string>
+    <string name="minute">Минута</string>
+    <string name="second">На второ място</string>
+    <string name="start_this_day">Започнете този ден</string>
+    <string name="start_love">Станете любов</string>
+    <string name="enter_love">Влез в любовта</string>
+    <string name="celebrate_love">Празнувайте любовта</string>
+    <string name="set_background">Задайте фон</string>
+    <string name="choose_color">Изберете цвят</string>
+    <string name="delete">Изтрий</string>
+    <string name="are_you_sure">Наистина ли искате да изтриете тази памет.Въведете липсващата информация. Моля, въведете още?</string>
+    <string name="miss_info">Въведете липсващата информация. Моля, въведете още :D</string>
+    <string name="content_love">Познайте се взаимно поради думата чар, но да се придържате към живота си е опитът на двамата влюбени. Преминете колко трудно, предизвикателно, все още държим ръцете си и вървим напред. Любовта е преодоляла може да покрива възходи и падения? Споделете прекрасните спомени от деня, които ви обичат</string>
+    <string name="change_background">Смени фона</string>
+    <string name="change_love_date">Дата на промяна</string>
+    <string name="change_above_title">Промяна на заглавието</string>
+    <string name="change_bottom_title">Променете долното заглавие</string>
+    <string name="set_quick_keys">Задайте бързи клавиши</string>
+    <string name="set_font">Задайте шрифт</string>
+    <string name="change_color_wave">Задайте цветова вълна</string>
+    <string name="change_bg_color_wave">Задайте фонова вълна</string>
+    <string name="rate_us">Оцени ни</string>
+    <string name="share">Дял</string>
+    <string name="set_lock_screen">Задайте заключен екран</string>
+    <string name="dialog_capquyen_title">Разрешаване на разрешението</string>
+    <string name="dialog_capquyen_mess">Моля, разрешете разрешението за наслагване на Draw, за да може приложението да изпълни функцията "Плаваща визуализация" .</string>
+    <string name="mess_validate_quangay">Не може да се зададе датата след деня</string>
+    <string name="select_date_title">Изберете дата</string>
+    <string name="my_own_cancel">Отказ</string>
+    <string name="my_own_message">Искате ли да оцените това приложение?</string>
+    <string name="my_own_rate">Добре</string>
+    <string name="my_own_thanks">Да не се показва отново</string>
+    <string name="my_own_title">Оцени</string>
+
+</resources>

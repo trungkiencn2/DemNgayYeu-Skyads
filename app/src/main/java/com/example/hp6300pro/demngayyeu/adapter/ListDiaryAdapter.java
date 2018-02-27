@@ -58,7 +58,7 @@ public class ListDiaryAdapter extends BaseAdapter {
         TextView mTvTitle = (TextView) mRow.findViewById(R.id.tv_title_item_diary);
 
         Diary diary = mListDiary.get(i);
-        try { //DuyLH - fix code
+        try {
             mImgDiary.setImageBitmap(MainActivity.scaleBitmap
                     (MediaStore.Images.Media.getBitmap(mContext.getContentResolver(), Uri.parse(diary.getUriBgCollapsing())), 600, 600));
         } catch (IOException e) {
@@ -70,10 +70,4 @@ public class ListDiaryAdapter extends BaseAdapter {
 
         return mRow;
     }
-
-//    public static Bitmap RotateBitmap(Bitmap source, float angle) {
-//        Matrix matrix = new Matrix();
-//        matrix.postRotate(angle);
-//        return Bitmap.createBitmap(source, 0, 0, source.getWidth(), source.getHeight(), matrix, true);
-//    }
 }

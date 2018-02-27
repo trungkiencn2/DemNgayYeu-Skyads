@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">പ്രണയം കൌണ്ടർ</string>
+    <string name="pick_start_love_day">ആരംഭ ദിവസം ആരംഭിക്കുക.</string>
+    <string name="love_forever">എന്നേക്കും സ്നേഹിക്കുക</string>
+    <string name="take_picture">ചിത്രം എടുക്കുക</string>
+    <string name="change_title">ശീർഷകം മാറ്റുക</string>
+    <string name="pick_picture_from_memory">മെമ്മറിയിൽ നിന്നുള്ള ചിത്രം എടുക്കുക</string>
+    <string name="days">ദിവസം</string>
+    <string name="malename">പുരുഷ നാമം</string>
+    <string name="femalename">പെൺ നാമം</string>
+    <string name="clock_love">ക്ലോക്ക് സ്നേഹം</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="ok">ശരി</string>
+    <string name="been_love_together">ഒന്നിച്ചു സ്നേഹിച്ചു</string>
+    <string name="set_malename">ആൺ പേരു് സജ്ജമാക്കുക</string>
+    <string name="set_femalename">സ്ത്രീയുടെ പേര് സജ്ജമാക്കുക</string>
+    <string name="type_malename">പുരുഷ പേര് ടൈപ്പുചെയ്യുക...</string>
+    <string name="type_femalename">സ്ത്രീയുടെ പേര് ടൈപ്പുചെയ്യുക...</string>
+    <string name="year">വർഷം</string>
+    <string name="month">മാസം</string>
+    <string name="day">ദിവസം</string>
+    <string name="hour">മണിക്കൂർ</string>
+    <string name="minute">മിനിറ്റ്</string>
+    <string name="second">രണ്ടാമത്</string>
+    <string name="start_this_day">ഈ ദിവസം ആരംഭിക്കുക</string>
+    <string name="start_love">സ്നേഹം ആരംഭിക്കൂ</string>
+    <string name="enter_love">സ്നേഹം നൽകുക</string>
+    <string name="celebrate_love">പ്രണയം ആഘോഷിക്കൂ</string>
+    <string name="set_background">പശ്ചാത്തലം സജ്ജമാക്കുക</string>
+    <string name="choose_color">നിറം തിരഞ്ഞെടുക്കൂ</string>
+    <string name="delete">ഇല്ലാതാക്കുക</string>
+    <string name="are_you_sure">ഈ മെമ്മറി ഇല്ലാതാക്കാൻ നിങ്ങൾ തീർച്ചയായും ആഗ്രഹിക്കുന്നുണ്ടോ?</string>
+    <string name="miss_info">നിങ്ങൾ കാണാതായ വിവരം നൽകുക. കൂടുതൽ നൽകുക :D</string>
+    <string name="content_love">പരസ്പരസ്നേഹം മൂലം പരസ്പരം അറിയാമെങ്കിലും ജീവിതകാലം മുഴുവൻ ഒത്തുചേരുമെന്നത് സ്നേഹത്തിൽ രണ്ടുപേരുടെയും പരിശ്രമമാണ്. എത്ര ബുദ്ധിമുട്ടാണ്, വെല്ലുവിളി നേരിടേണ്ടിവരുമ്പോൾ ഞങ്ങൾ കൈകോർത്തു പിടിച്ചു മുന്നോട്ട് നടക്കുകയാണ്. സ്നേഹം മറികടക്കാൻ സാധ്യതയുണ്ടോ? പകലിന്റെ മനോഹരമായ ഓർമ്മകൾ പങ്കുവെക്കൂ</string>
+    <string name="change_background">പശ്ചാത്തലം മാറ്റുക</string>
+    <string name="change_love_date">തീയതി മാറ്റുക</string>
+    <string name="change_above_title">പ്രധാന ശീർഷകം മാറ്റുക</string>
+    <string name="change_bottom_title">ചുവടെയുള്ള ശീർഷകം മാറ്റുക</string>
+    <string name="set_quick_keys">പെട്ടെന്നുള്ള കീകൾ സജ്ജമാക്കുക</string>
+    <string name="set_font">ഫോണ്ട് സജ്ജമാക്കുക</string>
+    <string name="change_color_wave">വർണ്ണ തരംഗം സജ്ജമാക്കുക</string>
+    <string name="change_bg_color_wave">പശ്ചാത്തല തരംഗം സജ്ജമാക്കുക</string>
+    <string name="rate_us">ഞങ്ങളെ റേറ്റുചെയ്യുക</string>
+    <string name="share">പങ്കിടുക</string>
+    <string name="set_lock_screen">ലോക്ക് സ്ക്രീൻ സജ്ജമാക്കുക</string>
+    <string name="dialog_capquyen_title">അനുമതി അനുവദിക്കുക</string>
+    <string name="dialog_capquyen_mess">ഫ്ലോട്ടിംഗ് വിഡ്ജറ്റ് ഫംഗ്ഷൻ പ്രവർത്തിപ്പിക്കാൻ അപ്ലിക്കേഷന്റെ ഓവർലേ അനുവാദംക്ക് ദയവായി അനുവദിക്കുക.</string>
+    <string name="mess_validate_quangay">ഇന്നത്തെ തീയതിക്കുശേഷം സജ്ജീകരിക്കാൻ കഴിയില്ല</string>
+    <string name="select_date_title">തീയതി തിരഞ്ഞെടുക്കുക</string>
+    <string name="my_own_cancel">റദ്ദാക്കുക</string>
+    <string name="my_own_message">നിങ്ങൾക്ക് ഈ അപ്ലിക്കേഷൻ റേറ്റുചെയ്യാൻ താൽപ്പര്യമുണ്ടോ?</string>
+    <string name="my_own_rate">ശരി</string>
+    <string name="my_own_thanks">വീണ്ടും കാണിക്കരുത്</string>
+    <string name="my_own_title">വിലയിരുത്തുക</string>
+
+</resources>
