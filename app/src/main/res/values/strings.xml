@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Love counter</string>
+    <string name="pick_start_love_day">Pick start love day</string>
+    <string name="love_forever">Love forever</string>
+    <string name="take_picture">Take picture</string>
+    <string name="change_title">Change title</string>
+    <string name="pick_picture_from_memory">pick picture from memory</string>
+    <string name="days">Day</string>
+    <string name="malename">Male name</string>
+    <string name="femalename">Female name</string>
+    <string name="clock_love">Clock love</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="been_love_together">Been love together</string>
+    <string name="set_malename">Set male name</string>
+    <string name="set_femalename">Set female name</string>
+    <string name="type_malename">Typing male name...</string>
+    <string name="type_femalename">Typing female name...</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="start_this_day">Start this day</string>
+    <string name="start_love">Start love</string>
+    <string name="enter_love">Enter love</string>
+    <string name="celebrate_love">Celebrate love</string>
+    <string name="set_background">Set background</string>
+    <string name="choose_color">Choose color</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure">Are you sure want to delete this memory?</string>
+    <string name="miss_info">You enter the missing information. Please enter more :D</string>
+    <string name="content_love">Know each other because of the word charm but to stick together a lifetime is the attempt of the two people in love. Pass how difficult, challenging, we still hold hands and walk forward. Love has overcome may cover ups and downs? Share the wonderful memories of the day love you</string>
+
+    <string name="change_background">Change background</string>
+    <string name="change_love_date">Change date</string>
+    <string name="change_above_title">Change top title</string>
+    <string name="change_bottom_title">Change bottom title</string>
+    <string name="set_quick_keys">Set quick keys</string>
+    <string name="set_font">Set font</string>
+    <string name="change_color_wave">Set color wave</string>
+    <string name="change_bg_color_wave">Set background wave</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share">Share</string>
+    <string name="set_lock_screen">Set lock screen</string>
+
+
+    <string name="dialog_capquyen_title">Allow Permission</string>
+    <string name="dialog_capquyen_mess">Please allow Draw overlay permission for app to run Floating widget function.</string>
+
+    <string name="mess_validate_quangay">Can not set the date after today</string>
+
+    <string name="select_date_title">Select date</string>
+
+    <string name="my_own_cancel">Cancel</string>
+    <string name="my_own_message">Do you want to rate this application?</string>
+    <string name="my_own_rate">Ok</string>
+    <string name="my_own_thanks">Don\'t show again</string>
+    <string name="my_own_title">Rate</string>
+
+</resources>

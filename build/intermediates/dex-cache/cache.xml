@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\Downloads\DemNgayYeuMoi-duylh\DemNgayYeuMoi-duylh\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="ef7ba2fd243378f538c20a10c730b39b3a38b012">
+        <dex dex="C:\Users\KienBeu\Downloads\DemNgayYeuMoi-duylh\DemNgayYeuMoi-duylh\app\build\intermediates\pre-dexed\debug\classes_08b576404112de930bbce12b90b48d1871ebe2de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\139123305105dd17e47af5ede8fd54690d635b17\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a66d97cc99478e8080ac20a666c8333022032857">
+        <dex dex="C:\Users\KienBeu\Downloads\DemNgayYeuMoi-duylh\DemNgayYeuMoi-duylh\app\build\intermediates\pre-dexed\debug\classes_ee03ca18fb165706ecdba9e2d76cf2956583fdbd.jar" />
+    </item>
+
+</items>

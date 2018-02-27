@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--Root container-->
+    <RelativeLayout
+        android:id="@+id/root_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <!--View while view is collapsed-->
+        <RelativeLayout
+            android:id="@+id/collapse_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <!--Icon of floating widget -->
+            <ImageView
+                android:id="@+id/collapsed_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_love_big"
+                tools:ignore="ContentDescription" />
+
+            <!--Close button-->
+            <ImageView
+                android:id="@+id/close_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/ic_close"
+                tools:ignore="ContentDescription" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/linear_expand"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/bg_expand"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="right"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/img_open_expand"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_home" />
+
+                <ImageView
+                    android:src="@drawable/clock_white"
+                    android:id="@+id/img_clock_or_wave"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8" />
+
+                <ImageView
+                    android:id="@+id/img_close_expand"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_close" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5">
+
+                <FrameLayout
+                    android:id="@+id/frame_wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <me.itangqi.waveloadingview.WaveLoadingView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/wave_view_expand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginRight="36dp"
+                    android:layout_gravity="center"
+                    app:wlv_borderColor="@color/colorAccent"
+                    app:wlv_borderWidth="6dp"
+                    app:wlv_wave_background_Color="#59000000"
+                    app:wlv_progressValue="2"
+                    app:wlv_round_rectangle="true"
+                    app:wlv_shapeType="rectangle"
+                    app:wlv_round_rectangle_x_and_y="100"
+                    app:wlv_waveColor="@color/colorAccent" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_count_day_expand"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="30sp"
+                            android:textColor="@color/colorWhite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_days_expand"
+                            android:text="@string/day"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/colorWhite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:background="@color/color_black_blur"
+                    android:visibility="gone"
+                    android:id="@+id/linear_clock_expand"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:weightSum="6"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:layout_height="0dp">
+
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/heart_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_year_expand"
+                                    android:textSize="20sp"
+                                    android:textColor="@color/colorWhite"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0"/>
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/tv_year_expand_static"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:textColor="@color/colorWhite"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/year"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/heart_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_month_expand"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="20sp" />
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/tv_month_expand_static"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:textColor="@color/colorWhite"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/month"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/heart_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_day_expand"
+                                    android:textSize="20sp"
+                                    android:textColor="@color/colorWhite"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0"/>
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/tv_day_expand_static"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:textColor="@color/colorWhite"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/day"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/heart_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_hour_expand"
+                                    android:textSize="20sp"
+                                    android:textColor="@color/colorWhite"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0"/>
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/tv_hour_expand_static"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:textColor="@color/colorWhite"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/hour"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/heart_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_minute_expand"
+                                    android:textSize="20sp"
+                                    android:textColor="@color/colorWhite"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0"/>
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/tv_minute_expand_static"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:textColor="@color/colorWhite"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/minute"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/heart_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_second_expand"
+                                    android:textSize="20sp"
+                                    android:textColor="@color/colorWhite"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="0"/>
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/tv_second_expand_static"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:textColor="@color/colorWhite"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="@string/second"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        android:id="@+id/tv_day_start_expand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:weightSum="5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_boy_expand"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/boy" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3" />
+
+                    <TextView
+                        android:text="@string/malename"
+                        android:id="@+id/tv_male_expand"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/heart_white"/>
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:layout_gravity="center"
+                        android:id="@+id/tv_count_day_floating"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_girl_expand"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/girl" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3" />
+
+                    <TextView
+                        android:text="@string/femalename"
+                        android:id="@+id/tv_female_expand"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--View while view is expanded-->
+</FrameLayout>

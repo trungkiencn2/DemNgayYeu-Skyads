@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đếm ngày yêu</string>
+    <string name="pick_start_love_day">Chọn ngày yêu</string>
+    <string name="love_forever">Mãi yêu</string>
+    <string name="take_picture">Chụp ảnh</string>
+    <string name="change_title">Thay đổi tiêu đề</string>
+    <string name="pick_picture_from_memory">Chọn ảnh từ bộ nhớ</string>
+    <string name="days">Ngày</string>
+    <string name="malename">Tên bạn trai</string>
+    <string name="femalename">Tên bạn gái</string>
+    <string name="clock_love">Đồng hồ tình yêu</string>
+    <string name="cancel">Hủy</string>
+    <string name="ok">OK</string>
+    <string name="been_love_together">Bên nhau</string>
+    <string name="set_malename">Đặt tên cho bạn trai</string>
+    <string name="set_femalename">Đặt tên cho bạn gái</string>
+    <string name="type_malename">Nhập tên bạn trai...</string>
+    <string name="type_femalename">Nhập tên bạn gái...</string>
+    <string name="year">Năm</string>
+    <string name="month">Tháng</string>
+    <string name="day">Ngày</string>
+    <string name="hour">Giờ</string>
+    <string name="minute">Phút</string>
+    <string name="second">Giây</string>
+    <string name="start_this_day">Bắt đầu từ hôm nay</string>
+    <string name="start_love">Bắt đầu yêu</string>
+    <string name="enter_love">Nhập nội dung tình yêu</string>
+    <string name="celebrate_love">Kỷ niệm tình yêu</string>
+    <string name="set_background">Đặt làm giao diện</string>
+    <string name="choose_color">Chọn màu</string>
+    <string name="delete">Xóa</string>
+    <string name="are_you_sure">Bạn có chắc chắn muốn xoá kỉ niệm này không?</string>
+    <string name="miss_info">Bạn nhập thiếu thông tin. Vui lòng nhập thêm nhé :D</string>
+    <string name="content_love">Quen nhau do chữ duyên nhưng để gắn bó bên nhau một đời là sự cố gắng của cả hai người trong tình yêu. Vượt qua bao khó khăn, thử thách, chúng mình vẫn nắm chặt đôi bàn tay và bước đi về phía trước. Tình yêu ấy đã vượt qua bao tháng năm thăng trầm phải không? Cùng chia sẻ những kỉ niệm tuyệt vời về ngày tình yêu của đôi bạn nhé</string>
+
+    <string name="change_background">Đổi giao diện</string>
+    <string name="change_love_date">Thay đổi ngày yêu</string>
+    <string name="change_above_title">Đổi tiêu đề trên</string>
+    <string name="change_bottom_title">Đổi tiêu đề dưới</string>
+    <string name="set_quick_keys">Đặt phím nhanh</string>
+    <string name="set_font">Đổi phông chữ</string>
+    <string name="change_color_wave">Đổi màu sóng</string>
+    <string name="change_bg_color_wave">Đổi giao diện sóng</string>
+    <string name="rate_us">Đánh giá chúng tôi</string>
+    <string name="share">Chia sẻ ngày yêu</string>
+    <string name="set_lock_screen">Đặt màn hình khóa</string>
+
+
+    <string name="dialog_capquyen_title">Cấp quyền</string>
+    <string name="dialog_capquyen_mess">Xin vui lòng cấp quyền Vẽ lên ứng dụng khác để ứng dụng có thể chạy và hiển thị Phím Tắt</string>
+
+    <string name="mess_validate_quangay">Không thể chọn quá ngày hôm nay</string>
+
+    <string name="select_date_title">Chọn ngày</string>
+
+    <string name="my_own_cancel">Để sau</string>
+    <string name="my_own_message">Bạn có thích ứng dụng Đếm ngày yêu này? Bạn có muốn đánh giá để ứng dụng ngày càng phát triển?</string>
+    <string name="my_own_rate">Ok</string>
+    <string name="my_own_thanks">Không hiện nữa</string>
+    <string name="my_own_title">Đánh giá</string>
+
+</resources>
