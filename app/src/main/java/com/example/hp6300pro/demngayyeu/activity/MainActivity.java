@@ -969,6 +969,7 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                 } else {
                     mTvFemale.setText(mEdtFemale.getText().toString());
                     startNotifyService();
+                    writeToFile(mTvFemale.getText().toString(), Utils.FILE_NAME_GIRL, getApplicationContext());
                     alertShowFemale.cancel();
                 }
             }
@@ -1003,6 +1004,7 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                 } else {
                     mTvMale.setText(mEdtMale.getText().toString());
                     startNotifyService();
+                    writeToFile(mTvMale.getText().toString(), Utils.FILE_NAME_BOY, getApplicationContext());
                     alertShowMale.cancel();
                 }
             }

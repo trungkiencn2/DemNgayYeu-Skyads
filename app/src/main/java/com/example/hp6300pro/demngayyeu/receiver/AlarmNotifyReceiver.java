@@ -132,7 +132,7 @@ public class AlarmNotifyReceiver extends BroadcastReceiver {
         NotificationCompat.Builder mBuilder;
 
         mBuilder = new NotificationCompat.Builder(context)
-                .setSmallIcon(R.drawable.ic_love_big)
+                .setSmallIcon(R.drawable.icon_app)
                 .setContentTitle(title)
                 .setContentText(msg)
                 .setDefaults(

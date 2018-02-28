@@ -21,6 +21,8 @@ public class Utils {
     public static final String FILE_BOY = "FILE_BOY";
     public static final String FILE_GIRL = "FILE_GIRL";
     public static final String FILE_BG = "FILE_BG";
+    public static final String FILE_NAME_BOY = "FILE_NAME_BOY";
+    public static final String FILE_NAME_GIRL = "FILE_NAME_GIRL";
     public static final String FILE_TIME_START = "FILE_TIME_START";
 
     public static void shareFacebook(Bitmap mBitmap, Context context) {

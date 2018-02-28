@@ -46,19 +46,14 @@ public class NotifyService extends Service {
         createNotification();
         mTime = it.getLongExtra(MainActivity.TIME_START, 0);
         if(mTime != 0){
-
             if (it.getStringExtra(MainActivity.IMG_BOY) != null) {
                 Uri fileUri = Uri.parse(it.getStringExtra(MainActivity.IMG_BOY));
-
                 try {
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), fileUri);
-
                     mContentView.setImageViewBitmap(R.id.img_boy_notify, bitmap);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
-
             }
 
             if (it.getStringExtra(MainActivity.IMG_GIRL) != null) {
@@ -71,9 +66,7 @@ public class NotifyService extends Service {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
             }
-
 
             mContentView.setTextViewText(R.id.tv_male_name_notify, it.getStringExtra(MainActivity.TV_MALE));
             mContentView.setTextViewText(R.id.tv_female_name_notify, it.getStringExtra(MainActivity.TV_FEMALE));
@@ -91,8 +84,7 @@ public class NotifyService extends Service {
 
     public void createNotification() {
         mContentView = new RemoteViews(getPackageName(), R.layout.notifycation);
-//        mContentView.setImageViewResource(R.id.img_boy_notify, R.drawable.boy);
-//        mContentView.setImageViewResource(R.id.img_girl_notify, R.drawable.girl);
+
         mContentView.setTextViewText(R.id.tv_time_notify, 0 + "");
 
         mNotify = new NotificationCompat.Builder(this);
@@ -104,22 +96,11 @@ public class NotifyService extends Service {
         mNotify.setOngoing(true);
         mNotify.setContentIntent(pendingIntent);
         mNotify.setAutoCancel(true);
-        mNotify.setSmallIcon(R.drawable.ic_love_big);
+        mNotify.setSmallIcon(R.drawable.icon_app);
         mNotify.setCustomContentView(mContentView);
         mNotify.setVisibility(Notification.VISIBILITY_PUBLIC);
         mNotifyManager.notify(NOTIFY_ID, mNotify.build());
     }
-
-//    public static Bitmap StringToBitMap(String encodedString) {
-//        try {
-//            byte[] encodeByte = Base64.decode(encodedString, Base64.DEFAULT);
-//            Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
-//            return bitmap;
-//        } catch (Exception e) {
-//            e.getMessage();
-//            return null;
-//        }
-//    }
 
     public String BimapToString(Bitmap image) {
         Bitmap immagex = image;

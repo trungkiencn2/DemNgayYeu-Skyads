@@ -36,12 +36,29 @@
                 android:layout_height="0dp"
                 android:layout_weight="4">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:src="@drawable/boy"
-                    android:id="@+id/img_boy_lock"
+                <LinearLayout
+                    android:orientation="vertical"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:src="@drawable/boy"
+                        android:id="@+id/img_boy_lock"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv_name_boy_lock"
+                        android:textColor="@color/colorAccent"
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3"/>
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -53,7 +70,7 @@
                     <TextView
                         android:layout_gravity="center"
                         android:textSize="35sp"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@color/colorAccent"
                         android:gravity="center"
                         android:id="@+id/tv_count_day_lock"
                         android:layout_width="wrap_content"
@@ -62,7 +79,7 @@
                     <TextView
                         android:layout_marginTop="5dp"
                         android:textSize="30sp"
-                        android:textColor="@color/colorWhite"
+                        android:textColor="@color/colorAccent"
                         android:id="@+id/tv_day_lock"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -71,12 +88,29 @@
 
                 </LinearLayout>
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:src="@drawable/girl"
-                    android:id="@+id/img_girl_lock"
+                <LinearLayout
+                    android:orientation="vertical"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:src="@drawable/girl"
+                        android:id="@+id/img_girl_lock"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv_name_girl_lock"
+                        android:textColor="@color/colorAccent"
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -91,18 +125,10 @@
                 android:layout_height="0dp"
                 android:layout_weight="1">
 
-                <SeekBar
-                    android:progressBackgroundTint="@color/color_trong_suot"
-                    android:layout_gravity="center"
-                    android:id="@+id/seekbar_lock"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:thumb="@drawable/thumb_image" />
-
                 <TextView
                     android:id="@+id/tv_slide_to_unlock"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorAccent"
                     android:text=">> Vuốt để mở khóa >>"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -124,7 +150,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/ic_heart" />
+                android:background="@drawable/ic_heart_pink" />
 
             <TextView
                 android:id="@+id/tv_bottom_day_lock"
@@ -133,14 +159,15 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:gravity="center"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorAccent"
                 android:textSize="15sp" />
 
             <ImageView
+                android:id="@+id/imageView"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/ic_heart" />
+                android:background="@drawable/ic_heart_pink" />
 
         </LinearLayout>
 

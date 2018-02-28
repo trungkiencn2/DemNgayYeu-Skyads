@@ -15,6 +15,8 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.support.annotation.IntDef;
 import android.support.annotation.Nullable;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
@@ -44,12 +46,13 @@ public class LockService extends Service{
     private CircleImageView mImgBoy;
     private CircleImageView mImgGirl;
     private ImageView mImgBg;
-    private TextView mTvBottomDay, mTvCountDay, mTvDay, mTvSlideToUnlock;
-    private SeekBar mSeekbar;
+    private TextView mTvBottomDay, mTvCountDay, mTvDay, mTvSlideToUnlock, mTvNameBoy, mTvNameGirl;
 
     private long timeStart;
     private long hieuThoiGian;
     private Typeface tf;
+
+    private GestureDetector mGesture;
 
     private Handler mHandler = new Handler();
 
@@ -88,6 +91,24 @@ public class LockService extends Service{
                 | WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                 PixelFormat.TRANSLUCENT);
         mWindowManager.addView(mViewIcon, mIconViewParam);
+        mGesture = new GestureDetector(this, new MyGesture());
+        mImgBg.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                mGesture.onTouchEvent(motionEvent);
+                return true;
+            }
+        });
+    }
+
+    class MyGesture extends GestureDetector.SimpleOnGestureListener{
+        @Override
+        public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+            if ((e2.getX() - e1.getX()) > 100){
+                mWindowManager.removeView(mViewIcon);
+            }
+            return super.onFling(e1, e2, velocityX, velocityY);
+        }
     }
 
     private void initView() {
@@ -96,42 +117,25 @@ public class LockService extends Service{
         mImgGirl = (CircleImageView) view.findViewById(R.id.img_girl_lock);
         mImgBg = (ImageView) view.findViewById(R.id.img_bg_lock);
         mTvBottomDay = (TextView) view.findViewById(R.id.tv_bottom_day_lock);
-        mSeekbar = (SeekBar) view.findViewById(R.id.seekbar_lock);
         mTvCountDay = (TextView) view.findViewById(R.id.tv_count_day_lock);
         mTvDay = (TextView) view.findViewById(R.id.tv_day_lock);
         mTvSlideToUnlock = (TextView) view.findViewById(R.id.tv_slide_to_unlock);
-        mSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                if (seekBar.getProgress() > 50) {
-                    mWindowManager.removeView(mViewIcon);
-                } else {
-                    seekBar.setProgress(0);
-                }
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
-
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                if(progress>50){
-
-                }
-            }
-        });
+        mTvNameBoy = (TextView) view.findViewById(R.id.tv_name_boy_lock);
+        mTvNameGirl = (TextView) view.findViewById(R.id.tv_name_girl_lock);
     }
 
     private void addInfo() {
         String fileBoy = MainActivity.readFromFile(Utils.FILE_BOY, this);
         String fileGirl = MainActivity.readFromFile(Utils.FILE_GIRL, this);
         String fileBg = MainActivity.readFromFile(Utils.FILE_BG, this);
+        String nameBoy = MainActivity.readFromFile(Utils.FILE_NAME_BOY, this);
+        String nameGirl = MainActivity.readFromFile(Utils.FILE_NAME_GIRL, this);
+
         timeStart = Long.parseLong(MainActivity.readFromFile(Utils.FILE_TIME_START, this));
         mImgBoy.setImageURI(Uri.parse(fileBoy));
         mImgGirl.setImageURI(Uri.parse(fileGirl));
+        mTvNameBoy.setText(nameBoy);
+        mTvNameGirl.setText(nameGirl);
 
         if(MainActivity.readFromFile(MainActivity.FILE_CONFIG, this).equals(MainActivity.PUT_INTEGER)){
             Bitmap bitmap = bitmapFromAssets(fileBg);
@@ -165,6 +169,8 @@ public class LockService extends Service{
         mTvBottomDay.setTypeface(tf);
         mTvDay.setTypeface(tf);
         mTvSlideToUnlock.setTypeface(tf);
+        mTvNameBoy.setTypeface(tf);
+        mTvNameGirl.setTypeface(tf);
     }
 
     private Bitmap bitmapFromAssets(String path) {
