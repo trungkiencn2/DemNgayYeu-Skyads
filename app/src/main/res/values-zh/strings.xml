@@ -40,7 +40,7 @@
     <string name="set_quick_keys">設置快捷鍵</string>
     <string name="set_font">設置字體</string>
     <string name="change_color_wave">設置顏色波</string>
-    <string name="change_bg_color_wave">設置背景波</string>
+    <string name="change_bg_color_wave">改變波浪的背景顏色</string>
     <string name="rate_us">給我們評分</string>
     <string name="share">分享</string>
     <string name="set_lock_screen">設置鎖定屏幕</string>
@@ -53,5 +53,9 @@
     <string name="my_own_rate">好</string>
     <string name="my_own_thanks">不要再顯示</string>
     <string name="my_own_title">率</string>
+    <string name="invite">邀請朋友</string>
+    <string name="set_unlockscreen">刪除鎖定屏幕</string>
+    <string name="turn_on_lockscreen">你剛才打開了鎖屏</string>
+    <string name="turn_off_lockscreen">你剛剛關閉了鎖屏</string>
 
 </resources>

@@ -40,7 +40,7 @@
     <string name="set_quick_keys">Stellen Sie die Schnellwahltasten ein</string>
     <string name="set_font">Schriftart einstellen</string>
     <string name="change_color_wave">Stellen Sie Farbwelle ein</string>
-    <string name="change_bg_color_wave">Legen Sie Hintergrundwelle fest</string>
+    <string name="change_bg_color_wave">Ändere die Hintergrundfarbe der Welle</string>
     <string name="rate_us">Bewerten Sie uns</string>
     <string name="share">Aktie</string>
     <string name="set_lock_screen">Stellen Sie den Sperrbildschirm ein</string>
@@ -53,5 +53,9 @@
     <string name="my_own_rate">Ok</string>
     <string name="my_own_thanks">Nicht mehr anzeigen</string>
     <string name="my_own_title">Bewertung</string>
+    <string name="invite">Freund einladen</string>
+    <string name="set_unlockscreen">Entfernen Sie den Sperrbildschirm</string>
+    <string name="turn_on_lockscreen">Sie haben gerade den Sperrbildschirm eingeschaltet</string>
+    <string name="turn_off_lockscreen">Sie haben gerade den Sperrbildschirm ausgeschaltet</string>
 
 </resources>

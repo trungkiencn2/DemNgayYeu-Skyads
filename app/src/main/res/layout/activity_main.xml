@@ -82,7 +82,7 @@
                         android:layout_gravity="center"
                         app:wlv_borderColor="@color/colorAccent"
                         app:wlv_borderWidth="6dp"
-                        app:wlv_wave_background_Color="#59000000"
+                        app:wlv_wave_background_Color="#000000"
                         app:wlv_progressValue="2"
                         app:wlv_round_rectangle="true"
                         app:wlv_shapeType="rectangle"

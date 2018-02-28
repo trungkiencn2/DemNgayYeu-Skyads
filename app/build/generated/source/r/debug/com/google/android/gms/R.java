@@ -8,9 +8,9 @@ package com.google.android.gms;
 
 public final class R {
     public static final class attr {
-        public static final int adSize = 0x7f010051;
-        public static final int adSizes = 0x7f010052;
-        public static final int adUnitId = 0x7f010053;
+        public static final int adSize = 0x7f010052;
+        public static final int adSizes = 0x7f010053;
+        public static final int adUnitId = 0x7f010054;
     }
     public static final class id {
         public static final int auto = 0x7f0d0040;
@@ -39,10 +39,10 @@ public final class R {
         public static final int s7 = 0x7f070020;
     }
     public static final class style {
-        public static final int Theme_IAPTheme = 0x7f090144;
+        public static final int Theme_IAPTheme = 0x7f09013b;
     }
     public static final class styleable {
-        public static final int[] AdsAttrs = { 0x7f010051, 0x7f010052, 0x7f010053 };
+        public static final int[] AdsAttrs = { 0x7f010052, 0x7f010053, 0x7f010054 };
         public static final int AdsAttrs_adSize = 0;
         public static final int AdsAttrs_adSizes = 1;
         public static final int AdsAttrs_adUnitId = 2;

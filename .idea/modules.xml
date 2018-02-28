@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DemNgayYeuMoi-duylh.iml" filepath="$PROJECT_DIR$/DemNgayYeuMoi-duylh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemNgayYeu-Skyads-new.iml" filepath="$PROJECT_DIR$/DemNgayYeu-Skyads-new.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>

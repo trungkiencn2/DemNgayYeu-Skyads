@@ -40,7 +40,7 @@
     <string name="set_quick_keys">ፈጣን ቁልፎችን ያዘጋጁ</string>
     <string name="set_font">ፎንት ያዘጋጁ</string>
     <string name="change_color_wave">የቀለም ሞገድ ያዘጋጁ</string>
-    <string name="change_bg_color_wave">የዳራ ሞገድ ያዘጋጁ</string>
+    <string name="change_bg_color_wave">የመወዛወዙን የጀርባ ቀለም ይቀይሩ</string>
     <string name="rate_us">ደረጃ ይስጡን</string>
     <string name="share">አጋራ</string>
     <string name="set_lock_screen">የቁልፍ ማያ ገጽ አዘጋጅ</string>
@@ -53,5 +53,9 @@
     <string name="my_own_rate">እሺ</string>
     <string name="my_own_thanks">በድጋሚ አታሳይ</string>
     <string name="my_own_title">ደረጃ ይስጡ</string>
+    <string name="invite">ጓደኛ ይጋብዙ</string>
+    <string name="set_unlockscreen">የቁልፍ ገጹን ያስወግዱ</string>
+    <string name="turn_on_lockscreen">አሁን የተቆለፈ ማያ ገጽ ነዎት</string>
+    <string name="turn_off_lockscreen">የቁልፍ ማያ ገጹን በቅርቡ አጥፍተውታል</string>
 
 </resources>

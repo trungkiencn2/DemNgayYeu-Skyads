@@ -40,7 +40,7 @@
     <string name="set_quick_keys">クイックキーを設定します</string>
     <string name="set_font">フォントを設定します</string>
     <string name="change_color_wave">カラーウェーブを設定します</string>
-    <string name="change_bg_color_wave">背景波を設定します</string>
+    <string name="change_bg_color_wave">波の背景色を変更する</string>
     <string name="rate_us">私たちを評価してください</string>
     <string name="share">シェア</string>
     <string name="set_lock_screen">ロック画面を設定します</string>
@@ -53,5 +53,9 @@
     <string name="my_own_rate">OK</string>
     <string name="my_own_thanks">もう一度表示しないでください</string>
     <string name="my_own_title">レート</string>
+    <string name="invite">友人を招待</string>
+    <string name="set_unlockscreen">ロック画面を削除する</string>
+    <string name="turn_on_lockscreen">あなたはロック画面をオンにしたばかりです</string>
+    <string name="turn_off_lockscreen">ロック画面をオフにしたばかりです</string>
 
 </resources>

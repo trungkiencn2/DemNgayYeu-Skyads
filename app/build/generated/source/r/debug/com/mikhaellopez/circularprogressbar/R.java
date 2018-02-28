@@ -8,18 +8,18 @@ package com.mikhaellopez.circularprogressbar;
 
 public final class R {
     public static final class attr {
-        public static final int background_progressbar_color = 0x7f0100f6;
-        public static final int background_progressbar_width = 0x7f0100f8;
-        public static final int progress = 0x7f0100f4;
-        public static final int progressbar_color = 0x7f0100f5;
-        public static final int progressbar_width = 0x7f0100f7;
+        public static final int background_progressbar_color = 0x7f0100f9;
+        public static final int background_progressbar_width = 0x7f0100fb;
+        public static final int progress = 0x7f0100f7;
+        public static final int progressbar_color = 0x7f0100f8;
+        public static final int progressbar_width = 0x7f0100fa;
     }
     public static final class dimen {
-        public static final int default_background_stroke_width = 0x7f08008b;
-        public static final int default_stroke_width = 0x7f080094;
+        public static final int default_background_stroke_width = 0x7f08008c;
+        public static final int default_stroke_width = 0x7f080095;
     }
     public static final class styleable {
-        public static final int[] CircularProgressBar = { 0x7f0100f4, 0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8 };
+        public static final int[] CircularProgressBar = { 0x7f0100f7, 0x7f0100f8, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb };
         public static final int CircularProgressBar_background_progressbar_color = 2;
         public static final int CircularProgressBar_background_progressbar_width = 4;
         public static final int CircularProgressBar_progress = 0;

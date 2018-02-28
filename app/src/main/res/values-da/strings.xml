@@ -40,7 +40,7 @@
     <string name="set_quick_keys">Indstil hurtigtaster</string>
     <string name="set_font">Indstil skrifttype</string>
     <string name="change_color_wave">Indstil farvebølge</string>
-    <string name="change_bg_color_wave">Indstil baggrundsbølge</string>
+    <string name="change_bg_color_wave">ændre baggrundsfarven på bølgen</string>
     <string name="rate_us">Bedøm os</string>
     <string name="share">Del</string>
     <string name="set_lock_screen">Indstil låseskærm</string>
@@ -53,5 +53,9 @@
     <string name="my_own_rate">Okay</string>
     <string name="my_own_thanks">Vis ikke igen</string>
     <string name="my_own_title">Sats</string>
+    <string name="invite">Inviter en ven</string>
+    <string name="set_unlockscreen">Fjern låseskærmen</string>
+    <string name="turn_on_lockscreen">Du har lige tændt låseskærmen</string>
+    <string name="turn_off_lockscreen">Du har lige slukket låseskærmen</string>
 
 </resources>

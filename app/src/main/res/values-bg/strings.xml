@@ -40,7 +40,7 @@
     <string name="set_quick_keys">Задайте бързи клавиши</string>
     <string name="set_font">Задайте шрифт</string>
     <string name="change_color_wave">Задайте цветова вълна</string>
-    <string name="change_bg_color_wave">Задайте фонова вълна</string>
+    <string name="change_bg_color_wave">променете цвета на фона на вълната</string>
     <string name="rate_us">Оцени ни</string>
     <string name="share">Дял</string>
     <string name="set_lock_screen">Задайте заключен екран</string>
@@ -53,5 +53,9 @@
     <string name="my_own_rate">Добре</string>
     <string name="my_own_thanks">Да не се показва отново</string>
     <string name="my_own_title">Оцени</string>
+    <string name="invite">Покани приятел</string>
+    <string name="set_unlockscreen">Премахнете заключения екран</string>
+    <string name="turn_on_lockscreen">Просто включихте заключения екран</string>
+    <string name="turn_off_lockscreen">Току-що изключихте заключения екран</string>
 
 </resources>

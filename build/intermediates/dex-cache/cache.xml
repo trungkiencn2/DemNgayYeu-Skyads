@@ -3,6 +3,258 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\c11f3ddcf80e21d7c65571d7a7fbc363c49fc5fc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="755c70a5a4e439030f67311dbafaa67b111377a6">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_65ad2700074dcc9deae929c795513157d541e5ac.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\f28d872fb291a6aa3d0909d9f10e4a1aae54730a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="bcd0bcdef85b31a656af76e39c0c95ce70800772">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_296cbd579a56d388f48e65d3983337c829c14731\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\85ce6b782b904cd8e2a58aae71867a6ec7aa83d2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="5094eccf53998e9bcacfb85f80e7607b39b093fd">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3710e580cd711fe08979a2157d53d6feba32a601\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.0.2\b9cd8fc6bd15cb915735d34535db30ece0c44603\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_ac354ba102ad23549e1daa93e058f4152e2a6419\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\be3257a5043beb8cb24afadb81af055d5e2f468f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="031cc16b7b6e77b3c050134ecab9fa5c2640a069">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ef44c24a83d596831d0c7c982f542e736c32d64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\37d92066e50d511600d9f7eace96be3e8e97d710\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2f68522ebd80ff7e529e08aaca6208049112ba03">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d409107f0d1de26002a5162a46c088bdabff39f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\c11f3ddcf80e21d7c65571d7a7fbc363c49fc5fc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="755c70a5a4e439030f67311dbafaa67b111377a6">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_65ad2700074dcc9deae929c795513157d541e5ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="ef7ba2fd243378f538c20a10c730b39b3a38b012">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_1ab4fcf703df309b510ec94033683be21685d191\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\common-1.1.0_de637e64e592172395833ac2a3965db93189ac93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\277b7a6ae2e293f7e70fa3bb9bdb82b9354a0a41\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9a2ea9818b2f556b6663c0e7376bd664ee6c7550">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_55378574f0b39e36aaa455d44b5ed316f6a600f7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\499fe0272714d14cd8003e53425192777ea4198f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a15b1513a32fbd0aa315d3714026f3149ad19e59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\ea73d5880f8e706ee238ae3e0cf23d059decdeeb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="6f209b73a488f358673f39317df394bd7a99c05e">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aea2aa81d9ad8c699c969c1815737da6d9986d22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\883e5c1e0dc4919aa8062fb7f7ab4dd730108093\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87eac4764eacf18c3f17d370f19a6ad3ba8d4509\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.1.0_de637e64e592172395833ac2a3965db93189ac93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\277b7a6ae2e293f7e70fa3bb9bdb82b9354a0a41\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9a2ea9818b2f556b6663c0e7376bd664ee6c7550">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55378574f0b39e36aaa455d44b5ed316f6a600f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\4130bfff2631e3b13a29860efd376ac1d8168509\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="680a7f9951d205d710bb1b119011fa03ddf7a914">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b8416c431e2764cf5e1adb412f6aa8c65e52d4d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\ea73d5880f8e706ee238ae3e0cf23d059decdeeb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="6f209b73a488f358673f39317df394bd7a99c05e">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_aea2aa81d9ad8c699c969c1815737da6d9986d22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\c40ea9f013df528e4731a755a41907be9a4f77a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="5c66801c7ac6def4ffef7859925b12ce7940438e">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_ab163ec252fe2609ba86ae4c23c2eee41695a440.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\313be107e042146f0d84785475835db84bbd06f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_316c5ba013cd40b5eda9b2cdb594aba7c3ed3fce.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\c40ea9f013df528e4731a755a41907be9a4f77a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="5c66801c7ac6def4ffef7859925b12ce7940438e">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab163ec252fe2609ba86ae4c23c2eee41695a440\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\6c168e504fe7121c55f32c2c46153c91505ed2fc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9296d6f092fcdba4fafb6ac26546a39babdab46a">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b579226c7a2cb6f041cbc3d1f1d3b99d0222a979\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\313be107e042146f0d84785475835db84bbd06f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_316c5ba013cd40b5eda9b2cdb594aba7c3ed3fce\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\08a2764012f2cb757283820270ab6551158014dd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0d6df4057d1620a785f5bd2e69dd0d7866f3613c">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_b12280a6ab9306940cae47094d6c6051573ec651.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\139123305105dd17e47af5ede8fd54690d635b17\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a66d97cc99478e8080ac20a666c8333022032857">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee03ca18fb165706ecdba9e2d76cf2956583fdbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\08a2764012f2cb757283820270ab6551158014dd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0d6df4057d1620a785f5bd2e69dd0d7866f3613c">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b12280a6ab9306940cae47094d6c6051573ec651\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\7da1e97e11ee93c05c351da39d479bb7ecef7e9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="1e82f4dd0ec0adfbd0592a964c560662e856f3d8">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_311842ccd57e883e8a8f6576f60cdf00ac1e57d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\44fab2f236be88c42c8361f9ead49cc750a4c1a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_4be67b90c2bf9c6bdb8c2990c6214827a8e97ec1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\8aa49e36c8d187e68493b62ead7f1cfca6f2e8ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_d427485ebeb757a8a7b5b53eb65e94a15325a142.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\KienBeu\Downloads\DemNgayYeuMoi-duylh\DemNgayYeuMoi-duylh\library\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -18,6 +270,249 @@
         revision="27.0.1"
         sha1="a66d97cc99478e8080ac20a666c8333022032857">
         <dex dex="C:\Users\KienBeu\Downloads\DemNgayYeuMoi-duylh\DemNgayYeuMoi-duylh\app\build\intermediates\pre-dexed\debug\classes_ee03ca18fb165706ecdba9e2d76cf2956583fdbd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\8aa49e36c8d187e68493b62ead7f1cfca6f2e8ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d427485ebeb757a8a7b5b53eb65e94a15325a142\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\aecdc9b53a0bb19cfc29b8f03d61942f64eb00be\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="3d46095629eedbd5b79b4d129428fc499473a73b">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d678912431a75d84725db2738155fa3ef7f8abbf\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\aecdc9b53a0bb19cfc29b8f03d61942f64eb00be\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="3d46095629eedbd5b79b4d129428fc499473a73b">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_d678912431a75d84725db2738155fa3ef7f8abbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\427f6e273dfa256aae182e3a0efc3671c147e1af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fe6c8fbfeeb1454c3eb605c9b66662991681fd55">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_26ea6816066526483d66cc8fd84554197dcf9a45.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\b2043f2742319bd91fa708e539427c670c31bcfc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="705378853cb9f264315d7a0a8edb6743d72efe9b">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_349083c2ee5fe960fe459575e3ca311348d49a84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.8.0\9bada650e1afe9c6174ddc0d113c1fce4dc26fe0\glide-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.8.0_eb3dc5af32330df1364395587d7095c4fbf31e60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\427f6e273dfa256aae182e3a0efc3671c147e1af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fe6c8fbfeeb1454c3eb605c9b66662991681fd55">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26ea6816066526483d66cc8fd84554197dcf9a45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.1.0_1c3f8fabca00e495b883d10ef36c0a8b4d99a9ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\d6dba8a974c39cae6711506bebebd1c54aaf6cae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef095045842067c52852f79139a03da8a6e3c6ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\44fab2f236be88c42c8361f9ead49cc750a4c1a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4be67b90c2bf9c6bdb8c2990c6214827a8e97ec1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\b2043f2742319bd91fa708e539427c670c31bcfc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="705378853cb9f264315d7a0a8edb6743d72efe9b">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_349083c2ee5fe960fe459575e3ca311348d49a84.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\93135ab08ec3adf0873d3ca24d43b08d8a60919c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="14bfdbf5594d4d7c320de20831849050788ab1e3">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a755b12a5fe3bb8b870f16e286aeb20ce2b5480\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.android\build-cache\c0e2484aefc233c83fdffb056a171a583b4cf1c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_2c177ce74c461077ef33218f4a34ee50018535c3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\9fbb7a1b48acbbb9deb2d3377a4dd042ba3cbb86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="24cb9bae5fbe94df0f55d87452a291b69a2f22bf">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8663e1380f99fb28fac33bfc58612868f650fd2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\9b06933ed4ce374eb06b74105e760504bf8ab851\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a7760a45a6c9f425aaa43ef391a8cf28a8bcb4a1">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1608abaa7cbbef5da90544e9dbc753297c38492\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\f13250a5df0f0bb5a31d003441b0f46b8e9a7a55\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="25c8cb628374f9a2d59ff9e1172753751e9a9f84">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_83f64b4741bf18d525f4a11c16da4a55f8963fe9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\c0e2484aefc233c83fdffb056a171a583b4cf1c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2c177ce74c461077ef33218f4a34ee50018535c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\9fbb352fc34aebddfbf595c3d95068f007b41c85\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fa112f9589a72edd6c8458764cd65e80a39e6d8c">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_410bac8065c8117afdc55b40e6f43c8692c5f33a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="ef7ba2fd243378f538c20a10c730b39b3a38b012">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\classes_1ab4fcf703df309b510ec94033683be21685d191.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.0\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-27.1.0_19450656ce7dbd81b2025e1736bc855aad322312\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\5e17d9239c266373292a90ed58bdf7e3a85d7c93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a5fa2e3704f51b30b7b47e12a3a2909728799583">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_669fed4c91a3ea7313c066da8c1906107dfae657\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\cf0afeedfcd38985f81fc20ac6cba21d5a38c625\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9c59b56d8bef0cc07f8842368e558a001c5c9e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\4923aeccdb55272fbfabc4f29d9ef9be555d79aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="e3a81d9431bc9c7e1e71d664f0227094581bea04">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f4b9be2a44cabd03a576eee0f11913230eaf261\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.android\build-cache\e37f18207fa005127f899605571f0560292e5c13\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="aeca0a0ab86831ec59a54723205ce9341ac22d1b">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5925d64c2747327825ac15c45a896cf49166c163\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.2.0_53a7836c197db77a7146bbeefe757b5151cd0440\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.0\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\support-annotations-27.1.0_19450656ce7dbd81b2025e1736bc855aad322312.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KienBeu\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="E:\Android-20170218T030623Z\AppDemo\DemNgayYeu-Skyads-new\app\build\intermediates\pre-dexed\debug\common-1.1.0_1c3f8fabca00e495b883d10ef36c0a8b4d99a9ac.jar" />
     </item>
 
 </items>

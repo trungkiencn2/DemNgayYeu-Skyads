@@ -26,15 +26,18 @@ public class MyReceiver extends BroadcastReceiver { //abc
     @Override
     public void onReceive(Context context, Intent intent) {
         if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
-            Log.e("In on receive", "In Method:  ACTION_SCREEN_OFF");
             context.startService(new Intent(context, LockService.class));
+//            Intent it = new Intent(context, LockService.class);
+//            it.setAction("com.truiton.foregroundservice.action.startforeground");
+//            context.startService(it);
             countPowerOff++;
         } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
-            Log.e("In on receive", "In Method:  ACTION_SCREEN_ON");
             context.stopService(new Intent(context, LockService.class));
+//            Intent it = new Intent(context, LockService.class);
+//            it.setAction("com.truiton.foregroundservice.action.stopforeground");
+//            context.startService(it);
             countPowerOff++;
         } else if (intent.getAction().equals(Intent.ACTION_USER_PRESENT)) {
-            Log.e("In on receive", "In Method:  ACTION_USER_PRESENT");
             if (countPowerOff > 2) {
                 countPowerOff = 0;
                 Intent i = new Intent(context, MainActivity.class);

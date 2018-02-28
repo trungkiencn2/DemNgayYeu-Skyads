@@ -540,8 +540,8 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
         mTvLoveForever.setText(prefs.getString(TV_TITLE_ABOVE, getString(R.string.love_forever)));
         mTvTitleBottom.setText(prefs.getString(TV_TITLE_BOTTOM, getString(R.string.clock_love)));
         mTvTimeStartLove.setText(Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + "-" + (Calendar.getInstance().get(Calendar.MONTH) + 1) + "-" + Calendar.getInstance().get(Calendar.YEAR));
-        mWave.setWaveColor(prefs.getInt(COLOR_WAVE, 1));
-        mWave.setWaveBgColor(prefs.getInt(COLOR_BG_WAVE, 1));
+        mWave.setWaveColor(prefs.getInt(COLOR_WAVE, R.color.colorAccent));
+        mWave.setWaveBgColor(prefs.getInt(COLOR_BG_WAVE, R.color.color_bg_blur));
 
         if (StartActivity.START_OR_CONTINUE.equals(StartActivity.START_LOVE)) {
             hashMapTime.clear();
@@ -1175,6 +1175,8 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
         mListFunction.add(new Function(R.drawable.ic_rate, getString(R.string.rate_us)));
         mListFunction.add(new Function(R.drawable.ic_share, getString(R.string.share)));
         mListFunction.add(new Function(R.drawable.ic_lockscreen, getString(R.string.set_lock_screen)));
+        mListFunction.add(new Function(R.drawable.ic_unlockscreen, getString(R.string.set_unlockscreen)));
+        mListFunction.add(new Function(R.drawable.invite, getString(R.string.invite)));
 
         mAdapter.notifyDataSetChanged();
 
@@ -1266,6 +1268,23 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                             startService(new Intent(MainActivity.this, Sv.class));
                             editor.putBoolean(LOCK_SCREEN, true);
                             editor.apply();
+                            Toast.makeText(MainActivity.this, getString(R.string.turn_on_lockscreen), Toast.LENGTH_SHORT).show();
+                            alertShowFunction.cancel();
+                        } else if (i == 11) {
+                            stopService(new Intent(MainActivity.this, Sv.class));
+                            Toast.makeText(MainActivity.this, getString(R.string.turn_off_lockscreen), Toast.LENGTH_SHORT).show();
+                            alertShowFunction.cancel();
+                        } else if (i == 12) {
+                            Intent it = new Intent(Intent.ACTION_SEND);
+                            it.setType("text/plain");
+                            it.putExtra(Intent.EXTRA_SUBJECT, "My app name");
+                            String strShareMessage = "\nLet me recommend you this application\n\n";
+                            strShareMessage = strShareMessage + "https://play.google.com/store/apps/details?id=" + getPackageName();
+                            Uri screenshotUri = Uri.parse("android.resource://packagename/drawable/image_name");
+                            it.setType("image/png");
+                            it.putExtra(Intent.EXTRA_STREAM, screenshotUri);
+                            it.putExtra(Intent.EXTRA_TEXT, strShareMessage);
+                            startActivity(Intent.createChooser(it, "Share via"));
                             alertShowFunction.cancel();
                         }
                     }

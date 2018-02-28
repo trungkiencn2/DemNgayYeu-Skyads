@@ -27,7 +27,7 @@ public class Sv extends Service {
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
         filter.addAction(Intent.ACTION_SCREEN_OFF);
         filter.addAction(Intent.ACTION_USER_PRESENT);
-        filter.setPriority(999);
+//        filter.setPriority(999);
         myReceiver = new MyReceiver();
         registerReceiver(myReceiver, filter);
         return START_STICKY;

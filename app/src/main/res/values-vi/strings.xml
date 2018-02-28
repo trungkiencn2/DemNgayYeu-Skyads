@@ -33,7 +33,6 @@
     <string name="are_you_sure">Bạn có chắc chắn muốn xoá kỉ niệm này không?</string>
     <string name="miss_info">Bạn nhập thiếu thông tin. Vui lòng nhập thêm nhé :D</string>
     <string name="content_love">Quen nhau do chữ duyên nhưng để gắn bó bên nhau một đời là sự cố gắng của cả hai người trong tình yêu. Vượt qua bao khó khăn, thử thách, chúng mình vẫn nắm chặt đôi bàn tay và bước đi về phía trước. Tình yêu ấy đã vượt qua bao tháng năm thăng trầm phải không? Cùng chia sẻ những kỉ niệm tuyệt vời về ngày tình yêu của đôi bạn nhé</string>
-
     <string name="change_background">Đổi giao diện</string>
     <string name="change_love_date">Thay đổi ngày yêu</string>
     <string name="change_above_title">Đổi tiêu đề trên</string>
@@ -41,23 +40,22 @@
     <string name="set_quick_keys">Đặt phím nhanh</string>
     <string name="set_font">Đổi phông chữ</string>
     <string name="change_color_wave">Đổi màu sóng</string>
-    <string name="change_bg_color_wave">Đổi giao diện sóng</string>
+    <string name="change_bg_color_wave">Đổi màu nền sóng</string>
     <string name="rate_us">Đánh giá chúng tôi</string>
     <string name="share">Chia sẻ ngày yêu</string>
     <string name="set_lock_screen">Đặt màn hình khóa</string>
-
-
     <string name="dialog_capquyen_title">Cấp quyền</string>
     <string name="dialog_capquyen_mess">Xin vui lòng cấp quyền Vẽ lên ứng dụng khác để ứng dụng có thể chạy và hiển thị Phím Tắt</string>
-
     <string name="mess_validate_quangay">Không thể chọn quá ngày hôm nay</string>
-
     <string name="select_date_title">Chọn ngày</string>
-
     <string name="my_own_cancel">Để sau</string>
     <string name="my_own_message">Bạn có thích ứng dụng Đếm ngày yêu này? Bạn có muốn đánh giá để ứng dụng ngày càng phát triển?</string>
     <string name="my_own_rate">Ok</string>
     <string name="my_own_thanks">Không hiện nữa</string>
     <string name="my_own_title">Đánh giá</string>
+    <string name="invite">Mời bạn bè</string>
+    <string name="set_unlockscreen">Hủy màn hình khóa</string>
+    <string name="turn_on_lockscreen">Bạn vừa bật màn hình khóa</string>
+    <string name="turn_off_lockscreen">Bạn vừa tắt màn hình khóa</string>
 
 </resources>

@@ -40,7 +40,7 @@
     <string name="set_quick_keys">Définir les touches rapides</string>
     <string name="set_font">Définir la police</string>
     <string name="change_color_wave">Définir l`onde de couleur</string>
-    <string name="change_bg_color_wave">Définir l`onde de fond</string>
+    <string name="change_bg_color_wave">changer la couleur de fond de la vague</string>
     <string name="rate_us">Évaluez nous</string>
     <string name="share">Partager</string>
     <string name="set_lock_screen">Définir l`écran de verrouillage</string>
@@ -53,5 +53,9 @@
     <string name="my_own_rate">D`accord</string>
     <string name="my_own_thanks">Ne plus montrer</string>
     <string name="my_own_title">Taux</string>
+    <string name="invite">Inviter un ami</string>
+    <string name="set_unlockscreen">Retirez l`écran de verrouillage</string>
+    <string name="turn_on_lockscreen">Vous venez d`allumer l`écran de verrouillage</string>
+    <string name="turn_off_lockscreen">Vous venez d`éteindre l`écran de verrouillage</string>
 
 </resources>

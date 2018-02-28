@@ -40,7 +40,7 @@
     <string name="set_quick_keys">빠른 키 설정</string>
     <string name="set_font">글꼴을 설정하십시오</string>
     <string name="change_color_wave">색 물결을 설정하십시오</string>
-    <string name="change_bg_color_wave">배경 파도를 설정합니다</string>
+    <string name="change_bg_color_wave">웨이브의 배경색을 바꾼다</string>
     <string name="rate_us">우리를 평가해라</string>
     <string name="share">몫</string>
     <string name="set_lock_screen">잠금 화면을 설정하십시오</string>
@@ -53,5 +53,9 @@
     <string name="my_own_rate">승인</string>
     <string name="my_own_thanks">다시 표시하지 마십시오</string>
     <string name="my_own_title">율</string>
+    <string name="invite">친구를 초대하다</string>
+    <string name="set_unlockscreen">잠금 화면 제거</string>
+    <string name="turn_on_lockscreen">방금 잠금 화면을 켰습니다</string>
+    <string name="turn_off_lockscreen">방금 잠금 화면을 껐습니다</string>
 
 </resources>
