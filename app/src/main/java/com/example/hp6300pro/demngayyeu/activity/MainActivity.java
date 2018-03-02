@@ -234,12 +234,10 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
     }
 
     private long getHieuTimeToSangMai() {
-
         Calendar mCaNow = Calendar.getInstance();
         Calendar mCaTomorrow = Calendar.getInstance();
         mCaTomorrow.set(mCaNow.get(Calendar.YEAR), mCaNow.get(Calendar.MONTH), mCaNow.get(Calendar.DAY_OF_MONTH) + 1, 7, 0, 0);
         return mCaTomorrow.getTimeInMillis() - mCaNow.getTimeInMillis();
-
     }
 
     private void startAlarm(long mNewTime) {
@@ -253,11 +251,8 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
 
         pendingIntent = PendingIntent.getBroadcast(this, 0, myIntent, PendingIntent.FLAG_CANCEL_CURRENT);
 
-
         if (mNewTime == prefs.getLong(TIME_START, 0)) {
-
             manager.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis() + getHieuTimeToSangMai(), 86400000, pendingIntent);
-
         } else {
             if (pendingIntent != null) {
                 manager.cancel(pendingIntent);
@@ -265,7 +260,6 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                 pendingIntent = PendingIntent.getBroadcast(this, 0, myIntent, PendingIntent.FLAG_CANCEL_CURRENT);
                 manager.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis() + getHieuTimeToSangMai(), 86400000, pendingIntent);
             }
-
         }
     }
 
@@ -557,16 +551,10 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
         PUT_TYPE = readFromFile(FILE_CONFIG, this);
         if (PUT_TYPE != null) {
             if (PUT_TYPE.equals(PUT_INTEGER)) {
-
                 Bitmap b = bitmapFromAssets(prefs.getString(BGDATA, "anh_nen/bg_1.jpg"));
-
                 mFrameBg.setBackground(new BitmapDrawable(getResources(), scaleBitmap(b, 600, 600)));
-
             } else if (PUT_TYPE.equals(PUT_URI)) {
                 try {
-
-
-
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), Uri.parse(prefs.getString(BGDATA, null)));
                     mFrameBg.setBackground(new BitmapDrawable(getResources(), scaleBitmap(bitmap, 600, 600)));
                 } catch (IOException e) {

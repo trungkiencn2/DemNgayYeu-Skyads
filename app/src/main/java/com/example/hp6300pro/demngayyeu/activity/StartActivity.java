@@ -52,7 +52,6 @@ public class StartActivity extends BaseActivityWithDatePickerDialog implements V
     @Override
     protected void onResume() {
         super.onResume();
-
     }
 
 
@@ -147,13 +146,14 @@ public class StartActivity extends BaseActivityWithDatePickerDialog implements V
                     mCurrentSelectedDate = Calendar.getInstance();
                 }
 
+                mEditor.putLong(MainActivity.TIME_START, mCurrentSelectedDate.getTimeInMillis());
+                mEditor.apply();
+
                 it.putExtra(MainActivity.TIME_START, mCurrentSelectedDate.getTimeInMillis());
                 startActivity(it);
                 break;
         }
     }
-
-
 
     private long getTimeFromCalendar(Calendar c) {
         return c.getTimeInMillis();

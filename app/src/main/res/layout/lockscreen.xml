@@ -51,7 +51,7 @@
 
                     <TextView
                         android:id="@+id/tv_name_boy_lock"
-                        android:textColor="@color/colorAccent"
+                        android:textColor="@color/colorWhite"
                         android:gravity="center"
                         android:textSize="25sp"
                         android:layout_width="match_parent"
@@ -70,7 +70,7 @@
                     <TextView
                         android:layout_gravity="center"
                         android:textSize="35sp"
-                        android:textColor="@color/colorAccent"
+                        android:textColor="@color/colorWhite"
                         android:gravity="center"
                         android:id="@+id/tv_count_day_lock"
                         android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
                     <TextView
                         android:layout_marginTop="5dp"
                         android:textSize="30sp"
-                        android:textColor="@color/colorAccent"
+                        android:textColor="@color/colorWhite"
                         android:id="@+id/tv_day_lock"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
 
                     <TextView
                         android:id="@+id/tv_name_girl_lock"
-                        android:textColor="@color/colorAccent"
+                        android:textColor="@color/colorWhite"
                         android:gravity="center"
                         android:textSize="25sp"
                         android:layout_width="match_parent"
@@ -128,7 +128,7 @@
                 <TextView
                     android:id="@+id/tv_slide_to_unlock"
                     android:textSize="30sp"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/colorWhite"
                     android:text=">> Vuốt để mở khóa >>"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -150,7 +150,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/ic_heart_pink" />
+                android:background="@drawable/ic_heart" />
 
             <TextView
                 android:id="@+id/tv_bottom_day_lock"
@@ -159,7 +159,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:gravity="center"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/colorWhite"
                 android:textSize="15sp" />
 
             <ImageView
@@ -167,7 +167,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/ic_heart_pink" />
+                android:background="@drawable/ic_heart" />
 
         </LinearLayout>
 
