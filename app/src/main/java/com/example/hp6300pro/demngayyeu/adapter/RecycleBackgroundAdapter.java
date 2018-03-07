@@ -47,9 +47,7 @@ public class RecycleBackgroundAdapter extends RecyclerView.Adapter<RecycleBackgr
 
         public ViewHolder(View itemView) {
             super(itemView);
-
             mImgBg = (ImageView) itemView.findViewById(R.id.img_bg);
-
             mContext = itemView.getContext();
         }
     }

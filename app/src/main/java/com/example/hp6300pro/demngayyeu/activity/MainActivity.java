@@ -1,10 +1,12 @@
 package com.example.hp6300pro.demngayyeu.activity;
 
+import android.Manifest;
 import android.app.ActivityManager;
 import android.app.AlarmManager;
 import android.app.ApplicationErrorReport;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -71,6 +73,8 @@ import com.flask.colorpicker.ColorPickerView;
 import com.flask.colorpicker.OnColorSelectedListener;
 import com.flask.colorpicker.builder.ColorPickerClickListener;
 import com.flask.colorpicker.builder.ColorPickerDialogBuilder;
+import com.gun0912.tedpermission.PermissionListener;
+import com.gun0912.tedpermission.TedPermission;
 import com.kobakei.ratethisapp.RateThisApp;
 import com.mikhaellopez.circularprogressbar.CircularProgressBar;
 import com.theartofdev.edmodo.cropper.CropImage;
@@ -782,7 +786,7 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
             } else if (requestCode == RESULT_CANCELED) {
                 Log.d("abc", "cancel");
             }
-            if(prefs.getBoolean(LOCK_SCREEN, false)){
+            if (prefs.getBoolean(LOCK_SCREEN, false)) {
                 updateLockScreen();
             }
             return;
@@ -814,13 +818,13 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
             }
             editor.apply();
             writeToFile(PUT_TYPE, FILE_CONFIG, this);
-            if(prefs.getBoolean(LOCK_SCREEN, false)){
+            if (prefs.getBoolean(LOCK_SCREEN, false)) {
                 updateLockScreen();
             }
         } else if (resultCode == CHUP_ANH) {
             uri = Uri.parse(data.getStringExtra(CHUP_ANH_STRING));
             CropImage();
-            if(prefs.getBoolean(LOCK_SCREEN, false)){
+            if (prefs.getBoolean(LOCK_SCREEN, false)) {
                 updateLockScreen();
             }
         }
@@ -1187,7 +1191,7 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                             alertShowFunction.cancel();
                         } else if (i == 1) {
                             displayAlertDialogForChangeDay();
-                            if(prefs.getBoolean(LOCK_SCREEN, false)){
+                            if (prefs.getBoolean(LOCK_SCREEN, false)) {
                                 updateLockScreen();
                             }
                             alertShowFunction.cancel();
@@ -1214,9 +1218,7 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                                 });
 
                             } else {
-
                                 stopService(itForNotify);
-
                                 final SharedPreferences prefsN = getPreferences(MODE_PRIVATE);
                                 Intent itForFloating = new Intent(MainActivity.this, FloatingViewService.class);
                                 itForFloating.putExtra(IMG_BOY, prefsN.getString(IMG_BOY, String.valueOf(R.drawable.boy)));
@@ -1253,12 +1255,38 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                             Utils.shareFacebook(icon, getApplicationContext());
                             alertShowFunction.cancel();
                         } else if (i == 10) {
+//                            checkPermission();
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(MainActivity.this)) {
+
+                                AlertDialogUtils.showAlertDialog(MainActivity.this, getString(R.string.dialog_capquyen_title), getString(R.string.dialog_capquyen_mess), "Ok", "", false, new Idelegate() {
+                                    @Override
+                                    public void callBack(Object value, int where) {
+                                        //If the draw over permission is not available open the settings screen
+                                        //to grant the permission.
+                                        Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                                                Uri.parse("package:" + getPackageName()));
+                                        startActivity(intent);
+                                    }
+                                });
+
+                            }
+
+                            String manufacturer = "xiaomi";
+                            if (manufacturer.equalsIgnoreCase(android.os.Build.MANUFACTURER)) {
+                                //this will open auto start screen where user can enable permission for your app
+                                Intent intent1 = new Intent();
+                                intent1.setComponent(new ComponentName("com.miui.securitycenter", "com.miui.permcenter.autostart.AutoStartManagementActivity"));
+                                startActivity(intent1);
+                            }
+
                             long time = prefs.getLong(TIME_START, 0);
                             writeToFile(String.valueOf(time), Utils.FILE_TIME_START, getApplicationContext());
                             startService(new Intent(MainActivity.this, Sv.class));
                             editor.putBoolean(LOCK_SCREEN, true);
                             editor.apply();
                             Toast.makeText(MainActivity.this, getString(R.string.turn_on_lockscreen), Toast.LENGTH_SHORT).show();
+
+
                             alertShowFunction.cancel();
                         } else if (i == 11) {
                             stopService(new Intent(MainActivity.this, Sv.class));
@@ -1287,9 +1315,26 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
         );
     }
 
+    private void checkPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(MainActivity.this)) {
+
+            AlertDialogUtils.showAlertDialog(MainActivity.this, getString(R.string.dialog_capquyen_title), getString(R.string.dialog_capquyen_mess), "Ok", "", false, new Idelegate() {
+                @Override
+                public void callBack(Object value, int where) {
+                    //If the draw over permission is not available open the settings screen
+                    //to grant the permission.
+                    Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                            Uri.parse("package:" + getPackageName()));
+                    startActivity(intent);
+                }
+            });
+
+        }
+    }
+
     private MyReceiver myReceiver;
 
-    private void updateLockScreen(){
+    private void updateLockScreen() {
         final SharedPreferences prefs = getPreferences(MODE_PRIVATE);
         stopService(new Intent(MainActivity.this, Sv.class));
         long time = prefs.getLong(TIME_START, 0);
@@ -1392,7 +1437,7 @@ public class MainActivity extends MyBaseMainActivity implements View.OnClickList
                 long hieuTimeMillis = Calendar.getInstance().getTimeInMillis() - mCurrentSelectedDate.getTimeInMillis();
                 int numDay = (int) ((hieuTimeMillis + BaseActivityWithDatePickerDialog.HIEU_CHINH_THOI_GIAN) / (60000 * 60 * 24));
                 mTvDayInWave.setText(numDay + "");
-                if(prefs.getBoolean(LOCK_SCREEN, false)){
+                if (prefs.getBoolean(LOCK_SCREEN, false)) {
                     updateLockScreen();
                 }
             }
